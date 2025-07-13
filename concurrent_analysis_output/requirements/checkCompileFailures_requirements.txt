@@ -1,0 +1,26 @@
+<think>
+Okay, so I need to generate concise natural language requirements for the Java function checkCompileFailures. Let me start by understanding what the function does.
+
+Looking at the source code, the function takes a templateFile and a CompilationResult. It first retrieves diagnostics from the result. If debugEnabled is true, it prints out the diagnostics. If the result isn't successful, it throws an IllegalArgumentException.
+
+So, the function's main purpose is to check if the compilation was successful and handle any diagnostics, especially for debugging.
+
+Now, for the input-output: the function has two parameters, templateFile which is a String, and result which is a CompilationResult. It doesn't return anything, so the return is void.
+
+Dependencies: It uses println for printing, checks if the result is successful, gets diagnostics, checks if diagnostics are empty, and throws an IllegalArgumentException. Also, it uses StringWrappingJavaFile for the diagnostics.
+
+Concurrency patterns: The function doesn't seem to use any concurrency primitives like locks or threads. It's using future patterns and thread-local storage, but in the code, I don't see any synchronization. So maybe it's intended to be called in a single-threaded context or relies on external concurrency control.
+
+Putting it all together, I need to write the requirements in the specified format without including any code or explanations. I should focus on the function's purpose, inputs, outputs, dependencies, and concurrency aspects, keeping it brief and technical.
+</think>
+
+What the function does - Checks if a compilation result is successful and prints diagnostics if enabled.
+
+Input-Output:
+:param: templateFile (String) - Path to the template file being compiled.
+:param: result (CompilationResult) - Compilation result containing success status and diagnostics.
+:return: None
+
+Dependencies - Relies on println for output, isSuccessful and getDiagnostics methods of CompilationResult, and IllegalArgumentException for error handling.
+
+Concurrency patterns - Designed to be thread-safe using future patterns and thread-local storage.

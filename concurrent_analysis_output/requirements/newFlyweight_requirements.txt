@@ -1,0 +1,30 @@
+<think>
+Okay, I need to generate concise natural language requirements for the Java function newFlyweight based on the provided details. Let me break down the task step by step.
+
+First, I'll look at the function's purpose. The function is named newFlyweight and is part of the Mapper class. Its signature is public <I> I newFlyweight(Class<I> implementationParent, String templateFileName, Template template, Object... args). The source code shows that it's responsible for creating a flyweight object by rendering a template, compiling the result, and instantiating the implementation class.
+
+Next, I'll consider the input parameters. The function takes four parameters: a Class object for the implementation parent, a String for the template file name, a Template object, and a variable number of Objects as arguments. The return type is a generic I, which is the flyweight object.
+
+For dependencies, the function relies on several components. It uses the render method of the Template class to generate source code, the compile method of the compiler to compile the generated source, and the ClassViewModel to model the class structure. It also uses an inspector, which I assume is part of the class modeling process.
+
+Looking at concurrency patterns, the function uses the future pattern, which suggests asynchronous execution, and thread-local storage to manage data specific to each thread, ensuring thread safety.
+
+Now, I'll structure the response according to the guidelines. I need to be concise and technical, focusing on the concurrent aspects without including implementation details or explanations.
+
+I'll start with a brief technical summary of the function's purpose. Then, outline the input parameters and return value. Next, list the dependencies, and finally, describe the concurrency patterns used.
+
+I should ensure that each section is clear and adheres to the specified format. I'll avoid any markdown and keep the language natural and straightforward.
+</think>
+
+What the function does - Creates and returns a flyweight object by rendering a template, compiling the result, and instantiating the implementation class.
+
+Input-Output:
+:param: implementationParent - The parent class for the flyweight implementation.
+:param: templateFileName - The name of the template file used for rendering.
+:param: template - The template object used to generate source code.
+:param: args - Variable arguments used for the constructor of the implementation class.
+:return: An instance of the flyweight object implementing the specified interface.
+
+Dependencies - Relies on template rendering, class modeling, and compilation services to generate and instantiate the flyweight implementation.
+
+Concurrency patterns - Utilizes the future pattern for asynchronous execution and thread-local storage for maintaining thread-specific data.
