@@ -1,6 +1,6 @@
-**ConcurBench**: Benchmarking Code Generation for Concurrent Functions
+**ConcurBench**: 
 
-ConcurBench is a comprehensive benchmarking pipeline designed to evaluate the capabilities of Large Language Models (LLMs) on realistic concurrent programming tasks. It systematically extracts, annotates, and evaluates real-world concurrent functions from high-quality GitHub repositories using a modular, multi-phase pipeline.
+ConcurBench is a benchmark framework designed to evaluate the accuracy of Large Language Models (LLMs) in generating concurrent code. The project collects high-quality concurrent code examples from popular open-source repositories, annotates them with natural language requirements, and tests LLMs' ability to regenerate these functions with varying levels of context. This provides a standardized way to measure how well AI models can handle the complexities of concurrent programming.
 
 **Project Overview**
 Goal: To build a robust dataset and evaluation framework that tests LLMs on real-world concurrency tasks, simulating realistic developer scenarios with varying context levels.
