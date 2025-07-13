@@ -1,4 +1,5 @@
 **ConcurBench**: Benchmarking Code Generation for Concurrent Functions
+
 ConcurBench is a comprehensive benchmarking pipeline designed to evaluate the capabilities of Large Language Models (LLMs) on realistic concurrent programming tasks. It systematically extracts, annotates, and evaluates real-world concurrent functions from high-quality GitHub repositories using a modular, multi-phase pipeline.
 
 **Project Overview**
