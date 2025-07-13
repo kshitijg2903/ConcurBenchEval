@@ -1,0 +1,4063 @@
+{
+  "collection_date": "2025-06-09T13:51:13.522268",
+  "summary": {
+    "total_repositories": 4,
+    "java_repositories": 4,
+    "cpp_repositories": 0,
+    "total_concurrent_files": 378,
+    "total_stars": 4267,
+    "average_stars": 1066.75,
+    "languages_distribution": {
+      "Java": 4,
+      "C++/C": 0
+    },
+    "top_repositories": [
+      {
+        "name": "JCTools",
+        "full_name": "JCTools/JCTools",
+        "owner": "JCTools",
+        "description": null,
+        "language": "Java",
+        "stars": 3673,
+        "forks": 572,
+        "size": 7891,
+        "clone_url": "https://github.com/JCTools/JCTools.git",
+        "ssh_url": "git@github.com:JCTools/JCTools.git",
+        "html_url": "https://github.com/JCTools/JCTools",
+        "created_at": "2013-11-10T18:04:40Z",
+        "updated_at": "2025-06-08T20:30:16Z",
+        "topics": [
+          "awesome",
+          "benchmarks",
+          "concurrency",
+          "data-structures",
+          "java",
+          "lock-free",
+          "queues",
+          "wait-free"
+        ],
+        "license": "Apache License 2.0",
+        "default_branch": "master",
+        "structure_analysis": {
+          "total_files": 518,
+          "concurrent_files": [
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/channels/spsc/QueueThroughputBaseline.java",
+              "sha": "e06db2b1d426e1cd9bc36e95042e6f32f492b599",
+              "size": 3422
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/handrolled/throughput/spsc/BusyConcurrentQueuePerfTest.java",
+              "sha": "626e8002bcdd8fa70bf7f5d9e9068cbf9000ec9f",
+              "size": 3377
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/handrolled/throughput/spsc/BusyQueuePerfTest.java",
+              "sha": "f0c0e9c6719a17a5ee8cac32c6f2034ed2365a2c",
+              "size": 3177
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/handrolled/throughput/spsc/ConcurrentQueuePerfTest.java",
+              "sha": "d80634ad6c2a16f4eb29728d0e576283c74c974b",
+              "size": 3467
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/handrolled/throughput/spsc/QueuePerfTest.java",
+              "sha": "5bedb6473148421479313125901759348e8118c0",
+              "size": 3489
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/jmh/baseline/QueueOfferPoll.java",
+              "sha": "fbfb7ee1adb94ba8ac8e5f5ff5cbbd8566646fb3",
+              "size": 1824
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/jmh/collections/ConcurrentSetThroughput.java",
+              "sha": "4cec046bfafa6bd2f6285ec3faed88d9c4c710fd",
+              "size": 4609
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/jmh/collections/SetOps.java",
+              "sha": "8d301269dd6fea25310d65ef29ef5070077c9d9c",
+              "size": 2716
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/jmh/latency/QueueAsPoolBurstCost.java",
+              "sha": "0529307d723a09f79e398a687a72808370951d18",
+              "size": 4054
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/jmh/latency/QueueBurstCost.java",
+              "sha": "c7140db4411d86e8170ebba0da75508043f6e30a",
+              "size": 9125
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/jmh/throughput/MpscIntrusiveLinkedQueueThroughputBackoffNone.java",
+              "sha": "ba3bba9105482eb2aeb74ace4ec19e39883676f7",
+              "size": 3210
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/jmh/throughput/QueueThroughputBackoffConsume.java",
+              "sha": "9bfbc50a693b3f2e3f5303e141ad484918639d25",
+              "size": 930
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/jmh/throughput/QueueThroughputBackoffNano.java",
+              "sha": "b678c0e192dab31e8b4bb6d8d2b09a57c8149095",
+              "size": 809
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/jmh/throughput/QueueThroughputBackoffNone.java",
+              "sha": "d7b14d43c8714024134e881a2f492b4f0803acc0",
+              "size": 3323
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/jmh/throughput/QueueThroughputBackoffYield.java",
+              "sha": "0e82447c615e7ebfeca4c72345b570e3f53f3fc1",
+              "size": 751
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/maps/cat_test/AtomicCounter.java",
+              "sha": "928b9c2584359fbc9c7c2817142bbead39db898d",
+              "size": 315
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/maps/cat_test/CATCounter.java",
+              "sha": "1c3bb74a308e62d7d67baeb41351863b1df5a4cf",
+              "size": 432
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/maps/cat_test/Counter.java",
+              "sha": "908f28dd8d00a74060989b787010287e169b236e",
+              "size": 413
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/maps/cat_test/HandrolledHarness.java",
+              "sha": "10e16039ea6a366d777bcbde64adca6bd00775fb",
+              "size": 7475
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/maps/cat_test/LockCounter.java",
+              "sha": "058930a0c336117af3531a72f95e4904f9a4c72a",
+              "size": 406
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/maps/cat_test/RaceyCounter.java",
+              "sha": "949a29aa8532cc0e8aece14de2d67bcbf5de0455",
+              "size": 230
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/maps/cat_test/StripeLockCounter.java",
+              "sha": "52062c9e21c67f450a09a9d0a735993e30719163",
+              "size": 874
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/maps/cat_test/StripeUnsafeCounter.java",
+              "sha": "69bb0b991dea38dec75dd1f902031a4083fa529b",
+              "size": 635
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/maps/cat_test/SyncCounter.java",
+              "sha": "95d673c679389fbf99e7bc9ea67999f4186a4649",
+              "size": 249
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/maps/cat_test/UnsafeCounter.java",
+              "sha": "ace1018506b7fa49d98b21fae4b67c83eb9a54d7",
+              "size": 540
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/maps/nbhm_test/SimpleRandom.java",
+              "sha": "445c1ca337aa8f15b0788ca621ca3e6a7eed944c",
+              "size": 710
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/maps/nbhm_test/jmh/ConcurrentMapThroughput.java",
+              "sha": "79ea54ae76d7cb3c85b4c81637cd3473f7d45865",
+              "size": 5668
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/maps/nbhm_test/perf_hash_test.java",
+              "sha": "64f0989eb80b1a2cb2c41fd180f95c31d904a217",
+              "size": 17022
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/maps/nbhm_test/perf_hashlong_test.java",
+              "sha": "584c64df9f8fbe1cda98f9aefabf78b6e42f71fd",
+              "size": 14482
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/maps/nbhm_test/perf_set_test.java",
+              "sha": "1fe20e161b9e4e422b2dc4605ce519c597ab1a7b",
+              "size": 15163
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/queues/MessagePassingQueueByTypeFactory.java",
+              "sha": "8de05a27ce86116257657a17e4f866d122d1b049",
+              "size": 2901
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/queues/QueueByTypeFactory.java",
+              "sha": "355c925224a8d6263ad70bd5435f8409eb898dd2",
+              "size": 6246
+            },
+            {
+              "path": "jctools-benchmarks/src/main/java/org/jctools/queues/alt/ConcurrentQueueByTypeFactory.java",
+              "sha": "7cfa6b095a3913e0bc3929667446db0d8b7c4569",
+              "size": 1282
+            },
+            {
+              "path": "jctools-build/src/main/java/org/jctools/queues/atomic/JavaParsingAtomicArrayQueueGenerator.java",
+              "sha": "7c9cb6e69a501e3fe1f77a96e74d5d708706fb69",
+              "size": 7960
+            },
+            {
+              "path": "jctools-build/src/main/java/org/jctools/queues/atomic/JavaParsingAtomicLinkedQueueGenerator.java",
+              "sha": "c9a515beba23d3e1b22ab97b5e22cadfe2d7ddb1",
+              "size": 10268
+            },
+            {
+              "path": "jctools-build/src/main/java/org/jctools/queues/atomic/JavaParsingAtomicQueueGenerator.java",
+              "sha": "ced3961eeb5511203a549eaa2745d5f7c2702452",
+              "size": 14667
+            },
+            {
+              "path": "jctools-build/src/main/java/org/jctools/queues/atomic/TraceVisitor.java",
+              "sha": "e64cf748f086827b35a7f09faef638c7bd892e0f",
+              "size": 21922
+            },
+            {
+              "path": "jctools-build/src/main/java/org/jctools/queues/atomic/unpadded/JavaParsingAtomicUnpaddedArrayQueueGenerator.java",
+              "sha": "64a3b07aee1f5805b38716f92e97d0376bb9fe7a",
+              "size": 1795
+            },
+            {
+              "path": "jctools-build/src/main/java/org/jctools/queues/atomic/unpadded/JavaParsingAtomicUnpaddedLinkedQueueGenerator.java",
+              "sha": "3e8b8344ee3ed9764f898054dc5975dc7dc3a36a",
+              "size": 1649
+            },
+            {
+              "path": "jctools-build/src/main/java/org/jctools/queues/unpadded/JavaParsingUnpaddedQueueGenerator.java",
+              "sha": "611d3b7ac0ae4873e0e5d17818a9cfa41335cea9",
+              "size": 4717
+            },
+            {
+              "path": "jctools-build/src/main/java/org/jctools/queues/util/GeneratorUtils.java",
+              "sha": "f38c0fc95dce8979ddd2933a5412ac65c5ffacee",
+              "size": 3244
+            },
+            {
+              "path": "jctools-build/src/main/java/org/jctools/queues/util/JCToolsGenerator.java",
+              "sha": "3c90d0ab06d0b4716f6e9495f1e7bd66c1c0a9c9",
+              "size": 309
+            },
+            {
+              "path": "jctools-channels/src/main/java/org/jctools/channels/mapping/ClassViewModel.java",
+              "sha": "cb09afbc6ce9ff51a43c6cf6597c86658cb0faef",
+              "size": 2691
+            },
+            {
+              "path": "jctools-channels/src/main/java/org/jctools/channels/mapping/InvalidInterfaceException.java",
+              "sha": "21595b48b7a2997654cb6e8b29bc036beda85934",
+              "size": 900
+            },
+            {
+              "path": "jctools-channels/src/main/java/org/jctools/channels/mapping/Mapper.java",
+              "sha": "5d6b603d28bef51f9a4246123da11334fdf3e3eb",
+              "size": 4567
+            },
+            {
+              "path": "jctools-channels/src/main/java/org/jctools/channels/mapping/Primitive.java",
+              "sha": "0c20bb7a6fc8ec03bb06630d1fdec01f65bf55b8",
+              "size": 2663
+            },
+            {
+              "path": "jctools-channels/src/main/java/org/jctools/channels/mapping/TypeInspector.java",
+              "sha": "d0398f8f6832d8368301b62915df2c9d622127ec",
+              "size": 4431
+            },
+            {
+              "path": "jctools-channels/src/main/java/org/jctools/channels/mapping/Variable.java",
+              "sha": "5bf1ad329b447c3554e7c9c0b2d5e6a7b393f4e1",
+              "size": 456
+            },
+            {
+              "path": "jctools-channels/src/test/java/org/jctools/channels/mapping/InvalidInterfaceTest.java",
+              "sha": "cf317cfae9b3b62979ac06163885cc5789361946",
+              "size": 1787
+            },
+            {
+              "path": "jctools-channels/src/test/java/org/jctools/channels/mapping/MapperTest.java",
+              "sha": "0ea3820bc8ec5e4e802f153a47b22aa2b33ccaef",
+              "size": 2679
+            },
+            {
+              "path": "jctools-channels/src/test/java/org/jctools/channels/mapping/StubFlyweight.java",
+              "sha": "c5989bd54c6bdd6ce42c0a69a32c397967f2c707",
+              "size": 837
+            },
+            {
+              "path": "jctools-channels/src/test/resources/org/jctools/channels/mapping/StubTemplate.java",
+              "sha": "b0fac0b65c71d43926c80f6805f2c6afa39a78ba",
+              "size": 738
+            },
+            {
+              "path": "jctools-concurrency-test/src/main/java/org/jctools/queues/SpscArrayQueueConsumerTest.java",
+              "sha": "1c5fb26889e939d28f49620616f038a737a4f1bb",
+              "size": 976
+            },
+            {
+              "path": "jctools-concurrency-test/src/main/java/org/jctools/queues/SpscArrayQueueProducerConsumerTest.java",
+              "sha": "e72f27df2c01e793418e7941ff274bb3dfe39c4b",
+              "size": 999
+            },
+            {
+              "path": "jctools-concurrency-test/src/main/java/org/jctools/queues/SpscArrayQueueProducerTest.java",
+              "sha": "13e03a5b3b6e447e20ff713071c29b3d1e54fa19",
+              "size": 1173
+            },
+            {
+              "path": "jctools-concurrency-test/src/main/java/org/jctools/sets/SingleWriterHashSetDuplicateReadsTest.java",
+              "sha": "ed49404dde667e5cb1c8ddbfd2a78ca22da37b88",
+              "size": 1316
+            },
+            {
+              "path": "jctools-concurrency-test/src/main/java/org/jctools/sets/SingleWriterHashSetRemovalTest.java",
+              "sha": "97c278fcf6bcaeb8943a326c31b4f21333eea167",
+              "size": 1053
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/maps/AbstractEntry.java",
+              "sha": "b1cff8d372650966aaf21fdd9974308ff2bac670",
+              "size": 2101
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/maps/ConcurrentAutoTable.java",
+              "sha": "93a574ba7f902d5e93ec3eb4526e2f570172a7ed",
+              "size": 8762
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/maps/NonBlockingHashMap.java",
+              "sha": "8e9187d2e01864ad298a324fc7ebe1f47624a9d1",
+              "size": 73475
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/maps/NonBlockingHashMapLong.java",
+              "sha": "db9ade4788a14ddc55c570bee38a6d736e52645c",
+              "size": 65329
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/maps/NonBlockingHashSet.java",
+              "sha": "2d75a0f3b1a0973e8f1d248bcb75c559fad6016c",
+              "size": 2392
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/maps/NonBlockingIdentityHashMap.java",
+              "sha": "2f684c3c6ba5e5269ea28632b1fcc0f7e9d82797",
+              "size": 65489
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/maps/NonBlockingSetInt.java",
+              "sha": "2924a49f67369d6d94e4734a23e8b2d2fe733fe3",
+              "size": 19677
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/maps/package-info.java",
+              "sha": "a81c6b439a0960414853734d8b43ef161936e60f",
+              "size": 635
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/BaseLinkedQueue.java",
+              "sha": "aa187c5a666d24eacce6ea3f79d2f0b2e9c06ca8",
+              "size": 13893
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/BaseMpscLinkedArrayQueue.java",
+              "sha": "26ea831ed242e0b101044e57678a5cda82dce0eb",
+              "size": 25791
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/BaseSpscLinkedArrayQueue.java",
+              "sha": "8f65b52210bbec130c4542df270aed58e346233c",
+              "size": 12854
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/ConcurrentCircularArrayQueue.java",
+              "sha": "54aa06f42db658b0180c5484569f0302610cbd8d",
+              "size": 5244
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/ConcurrentSequencedCircularArrayQueue.java",
+              "sha": "5eaafcaa1a58bf86d602c08b32593bb4f6e53337",
+              "size": 1264
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/IndexedQueueSizeUtil.java",
+              "sha": "5a209d055bb03ddccbb38e483f01db556fe528ed",
+              "size": 3741
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/LinkedArrayQueueUtil.java",
+              "sha": "06d425f69f3671ff5d3465f4915a98c10f18d455",
+              "size": 997
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/LinkedQueueNode.java",
+              "sha": "a0d3008876f92f06194d730538afea9b975966bd",
+              "size": 1741
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/MessagePassingQueue.java",
+              "sha": "5a3edf6c5d1b7ea2e7d667e9402c91f04419bc5f",
+              "size": 12224
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/MessagePassingQueueUtil.java",
+              "sha": "dfb5391d2aaef0edc7d61653662ecbb1069d1007",
+              "size": 3993
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/MpUnboundedXaddArrayQueue.java",
+              "sha": "fb514fe5045922b08b601620ed50ec9f66e5ae65",
+              "size": 15714
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/MpUnboundedXaddChunk.java",
+              "sha": "eb0411d866e3aac8134bf6650fcaabb626ade94a",
+              "size": 2240
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/MpmcArrayQueue.java",
+              "sha": "02562e14c85984c2270d84585d7611a831a0ba8f",
+              "size": 22616
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/MpmcUnboundedXaddArrayQueue.java",
+              "sha": "eabd2d2f41d3157905abe2cb43915755e5278d9f",
+              "size": 16401
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/MpmcUnboundedXaddChunk.java",
+              "sha": "8ed0d8fc24313db8b12b6d53e92e9feb7e4fd378",
+              "size": 1883
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/MpscArrayQueue.java",
+              "sha": "d3389914747de6b5e6d1aa9395f9256c27405b2e",
+              "size": 19446
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/MpscBlockingConsumerArrayQueue.java",
+              "sha": "e3799fd3c5a379995c4472f79e6b28bdc6b9e21a",
+              "size": 27702
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/MpscChunkedArrayQueue.java",
+              "sha": "bfbfb8f353b04ff4038939c885de5686c8f4a528",
+              "size": 3901
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/MpscCompoundQueue.java",
+              "sha": "b34b5a35cfb6ef33ffe2aae779599359a68b280d",
+              "size": 11540
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/MpscGrowableArrayQueue.java",
+              "sha": "14c1825c6c4dd33488e1a70c44eac311e9a219a3",
+              "size": 2370
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/MpscLinkedQueue.java",
+              "sha": "a12957b8fa2efcab22895335d0f2f86bbca35166",
+              "size": 7341
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/MpscUnboundedArrayQueue.java",
+              "sha": "99dd4e79e362654fbb01a1348f83607670e69ebb",
+              "size": 2690
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/MpscUnboundedXaddArrayQueue.java",
+              "sha": "9a6d80cebded977f0e2c826d4599067555cadf50",
+              "size": 10514
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/MpscUnboundedXaddChunk.java",
+              "sha": "aff9ee45ae5ea56c85422cc7343afc2f8ffabb0a",
+              "size": 905
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/QueueProgressIndicators.java",
+              "sha": "f8196b8da33b032976a1f40a465278a04866889b",
+              "size": 1778
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/SpmcArrayQueue.java",
+              "sha": "ef8b23d9884df96224d60f3594863c76d049cd3c",
+              "size": 15390
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/SpscArrayQueue.java",
+              "sha": "a21eb110dafeba486bf94270f66b622685ae99bf",
+              "size": 15206
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/SpscChunkedArrayQueue.java",
+              "sha": "50a902d309a88547e61e6cda4eb2b98b9f37840e",
+              "size": 4363
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/SpscGrowableArrayQueue.java",
+              "sha": "6b34340603aa5f8c1305a25939239be3a799e9fb",
+              "size": 7064
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/SpscLinkedQueue.java",
+              "sha": "ac8a925d171b554ed5b141ce6bf12a7b194d91c4",
+              "size": 3932
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/SpscUnboundedArrayQueue.java",
+              "sha": "d34f2881c4d2421693ed53f8f647dcced4d78906",
+              "size": 3028
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/SupportsIterator.java",
+              "sha": "4da8771ad157b4035f461eba3f8e666a5eb2cc9e",
+              "size": 721
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/AtomicQueueUtil.java",
+              "sha": "969b06b70ea228dfdef55700c82609a5ba3012f7",
+              "size": 2667
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/AtomicReferenceArrayQueue.java",
+              "sha": "05bf6fd52c2d67026169b310a41935b84ae1cd05",
+              "size": 4596
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/BaseLinkedAtomicQueue.java",
+              "sha": "a8cf18c932d936c8b48966f50bebdf245a2d07eb",
+              "size": 16253
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/BaseMpscLinkedAtomicArrayQueue.java",
+              "sha": "6000645fec57c2c0f7a5f4be1665fd6df306c5fd",
+              "size": 28045
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/BaseSpscLinkedAtomicArrayQueue.java",
+              "sha": "ac921c91fb0a16d8b7213b684d8126a1e17b1b24",
+              "size": 14905
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/LinkedQueueAtomicNode.java",
+              "sha": "e84378eb28627044a97aeab459a6058598931c4e",
+              "size": 1643
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/MpmcAtomicArrayQueue.java",
+              "sha": "d9d57a4c554bde68d16e8c0f28c5c38e12e511c3",
+              "size": 24191
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/MpscAtomicArrayQueue.java",
+              "sha": "ecaf089c6a88519b947364a02efd60ff986e5041",
+              "size": 22030
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/MpscChunkedAtomicArrayQueue.java",
+              "sha": "a34da798bd3231cd1e519af23edf90f8f60a5027",
+              "size": 4654
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/MpscGrowableAtomicArrayQueue.java",
+              "sha": "377f6ee588038ba3d636b48c550a72a52e2417a1",
+              "size": 2689
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/MpscLinkedAtomicQueue.java",
+              "sha": "1ac12f3bca7906d8be3dec4aee159a7589c58597",
+              "size": 7017
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/MpscUnboundedAtomicArrayQueue.java",
+              "sha": "a6b920384674d3781e894f62e78dbf533c4320ac",
+              "size": 3205
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/SequencedAtomicReferenceArrayQueue.java",
+              "sha": "eb0ccfed9eb6ae24d060f9bbc393cdfd0a00a4c4",
+              "size": 1711
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/SpmcAtomicArrayQueue.java",
+              "sha": "098e94e7df8b51c0675474194aca59d11e1999e3",
+              "size": 17815
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/SpscAtomicArrayQueue.java",
+              "sha": "b4bb5ecfe0ced944f644dd492b467e0d7b433595",
+              "size": 17279
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/SpscChunkedAtomicArrayQueue.java",
+              "sha": "cbac5827c3cf9111af73c8b3b773fb5ce3cce5ce",
+              "size": 4685
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/SpscGrowableAtomicArrayQueue.java",
+              "sha": "b29b3ba377ad6f08512c358097fa9746c68e64ee",
+              "size": 7168
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/SpscLinkedAtomicQueue.java",
+              "sha": "2bd1081c1a50cfbfd3c9cbc726400f0bde43c805",
+              "size": 4313
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/SpscUnboundedAtomicArrayQueue.java",
+              "sha": "3d682011e5278418e13c897d9000782afcb7f157",
+              "size": 3380
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/package-info.java",
+              "sha": "e28565ffcaa963dbdb373a09547b53f54e14a15e",
+              "size": 644
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/BaseLinkedAtomicUnpaddedQueue.java",
+              "sha": "8dc4abe79d5d04d4a224c8077fd98941bdfb30ec",
+              "size": 13173
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/BaseMpscLinkedAtomicUnpaddedArrayQueue.java",
+              "sha": "d28b11aee1179821fb081eb7846f8a53de1f4b47",
+              "size": 25085
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/BaseSpscLinkedAtomicUnpaddedArrayQueue.java",
+              "sha": "7f30e4b6e382f88f818bbae5c867dcaf769ae412",
+              "size": 12993
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/MpmcAtomicUnpaddedArrayQueue.java",
+              "sha": "c62f58957a6663ed86b1bcb97318aacb4ce9ef99",
+              "size": 21289
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/MpscAtomicUnpaddedArrayQueue.java",
+              "sha": "999470075558b1b9c7720a33ece60bdde967d6fe",
+              "size": 18130
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/MpscChunkedAtomicUnpaddedArrayQueue.java",
+              "sha": "c22d657ed2ce123f72823caa47516cb85a420bc1",
+              "size": 3702
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/MpscGrowableAtomicUnpaddedArrayQueue.java",
+              "sha": "e7093874ce5a83dff9c31f52ab95c7b2b718599d",
+              "size": 2803
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/MpscLinkedAtomicUnpaddedQueue.java",
+              "sha": "4f86d17e10dd289c4bdbc0fdc2b2b3844796bdfc",
+              "size": 7123
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/MpscUnboundedAtomicUnpaddedArrayQueue.java",
+              "sha": "94a39d079928dcc4e3c2aa0b20d91eb8af18efe6",
+              "size": 2204
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/SpmcAtomicUnpaddedArrayQueue.java",
+              "sha": "5d690f7b590d39f1287bd7d38d91d7be7316e2b9",
+              "size": 13877
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/SpscAtomicUnpaddedArrayQueue.java",
+              "sha": "dfc49189d5f4e178894e4edae4ca7ff85d61ef71",
+              "size": 14407
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/SpscChunkedAtomicUnpaddedArrayQueue.java",
+              "sha": "6467bc9690c3dd24f333397ed92920fdfed24ad8",
+              "size": 4799
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/SpscGrowableAtomicUnpaddedArrayQueue.java",
+              "sha": "b08a0d456e95e0c8ee84af63c9ddbc22c14466f9",
+              "size": 7282
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/SpscLinkedAtomicUnpaddedQueue.java",
+              "sha": "db1c586ae440fb64d066acfe3d5c6be2877b6ecf",
+              "size": 4419
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/SpscUnboundedAtomicUnpaddedArrayQueue.java",
+              "sha": "a47fb1240acda5420d809a595a6b25a55788cb14",
+              "size": 3486
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/package-info.java",
+              "sha": "01a04cbf069fe26d025f6b9b60ece848854e5b32",
+              "size": 654
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/package-info.java",
+              "sha": "32f462cad73915f07bf84a2de53d5df00de77537",
+              "size": 5650
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/BaseLinkedUnpaddedQueue.java",
+              "sha": "8456efd3524bb81c647be120e086cb63edd2dff5",
+              "size": 12326
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/BaseMpscLinkedUnpaddedArrayQueue.java",
+              "sha": "66ff539edbc9afc9f479d7119a2a247eb17fe219",
+              "size": 24077
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/BaseSpscLinkedUnpaddedArrayQueue.java",
+              "sha": "173a33db01d3eaea44b3df8aa521c0113198b7c6",
+              "size": 12404
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/ConcurrentCircularUnpaddedArrayQueue.java",
+              "sha": "35d3bd1ec0667e89028c9f593f8437c56bbb0a02",
+              "size": 4837
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/ConcurrentSequencedCircularUnpaddedArrayQueue.java",
+              "sha": "7de58ddaefea93be5745e14cc530d41ebbd4a26b",
+              "size": 1556
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/MpmcUnpaddedArrayQueue.java",
+              "sha": "7d54dbbc7fec6fd09c6679440135fcd8ffa6eb62",
+              "size": 20763
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/MpscChunkedUnpaddedArrayQueue.java",
+              "sha": "351dc85dd7b4180dc29cd2c105fd53ed08b8bef1",
+              "size": 3504
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/MpscGrowableUnpaddedArrayQueue.java",
+              "sha": "f8ac608a40fec7c502463a0745e202ab05816993",
+              "size": 2642
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/MpscLinkedUnpaddedQueue.java",
+              "sha": "1dbb816830dcd4ca96b61167ca1e4bc856603c3c",
+              "size": 7423
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/MpscUnboundedUnpaddedArrayQueue.java",
+              "sha": "39047556879e6bee1250ee596f9254090ff85ad9",
+              "size": 2049
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/MpscUnpaddedArrayQueue.java",
+              "sha": "a12903cf222d7a0939de70f78ef7662584d9fea8",
+              "size": 17285
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/SpmcUnpaddedArrayQueue.java",
+              "sha": "cd045b3cdc7c1f9b4bd82f9e6502f334e677826b",
+              "size": 13271
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/SpscChunkedUnpaddedArrayQueue.java",
+              "sha": "1793d7ae194fdfce14e0e0b878425dc244e9459b",
+              "size": 4592
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/SpscGrowableUnpaddedArrayQueue.java",
+              "sha": "ef2a78269268e9d89a308abd0c984dabfcce1e6d",
+              "size": 7139
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/SpscLinkedUnpaddedQueue.java",
+              "sha": "e757531c4c56ea6c971ccde24387d4d8b14add15",
+              "size": 4180
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/SpscUnboundedUnpaddedArrayQueue.java",
+              "sha": "a66d635fc62f757b4511bc5464f9b01b2465a1af",
+              "size": 3285
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/SpscUnpaddedArrayQueue.java",
+              "sha": "83fdb8b99f2f94d27d38fde167fb193c568b6293",
+              "size": 13894
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/package-info.java",
+              "sha": "b70709dd431cc57e5efd8d2656a667577fa79f8d",
+              "size": 646
+            },
+            {
+              "path": "jctools-core/src/main/java/org/jctools/util/PaddedAtomicLong.java",
+              "sha": "e5c5fd56f936996904aab65547216142f1a79901",
+              "size": 12347
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/maps/KeyAtomicityTest.java",
+              "sha": "f0186318f603d95a3542d6638528538af9acbbad",
+              "size": 3096
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/maps/NBHMIdentityKeyAtomicityTest.java",
+              "sha": "9e1a035d0ed849a39490ffea9d2a3cf96d36a9eb",
+              "size": 3116
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/maps/NBHMLongKeyAtomicityTest.java",
+              "sha": "5a4c005128f3743bc50499363116bd977320d854",
+              "size": 3120
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/maps/NBHMRemoveTest.java",
+              "sha": "d0fb0a6286539c59fa86a21d6e44302bb3d05ac3",
+              "size": 8505
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/maps/NBHMReplaceTest.java",
+              "sha": "0d744199d0f8acb4d445f8c5b7fd4181a982f6cd",
+              "size": 568
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/maps/NonBlockingHashMapGuavaTestSuite.java",
+              "sha": "3262a7e86b9b9bb82c1edeb568aa404e828408f0",
+              "size": 4609
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/maps/linearizability_test/LincheckMapTest.java",
+              "sha": "add62e70774fb358315672070c09931109201ce9",
+              "size": 3664
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/maps/linearizability_test/LincheckSetTest.java",
+              "sha": "763e571bff477d26e5d1232f3388a9e075280190",
+              "size": 3036
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/maps/linearizability_test/NonBlockingHashMapLinearizabilityTest.java",
+              "sha": "99ecbc1fb15128cb0d164925618e28c04f219570",
+              "size": 278
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/maps/linearizability_test/NonBlockingHashMapLongLinearizabilityTest.java",
+              "sha": "ff482d6542f2462dd29ce9532e5815a0b372dd13",
+              "size": 294
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/maps/linearizability_test/NonBlockingHashSetLinearizabilityTest.java",
+              "sha": "b60264aaca74e203b22dc57221bf194e1ae1e204",
+              "size": 278
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/maps/linearizability_test/NonBlockingIdentityHashMapLinearizabilityTest.java",
+              "sha": "4561d2656c76a85bb636241e2d1abe7e2829206c",
+              "size": 547
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/maps/linearizability_test/NonBlockingSetIntLinearizabilityTest.java",
+              "sha": "9a7197d3d4bad4b26d168ff74dca21048d07ec0a",
+              "size": 272
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/maps/nbhm_test/NBHMID_Tester2.java",
+              "sha": "02d01a483b680ace25bbd302f14f980cc7d2633d",
+              "size": 26005
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/maps/nbhm_test/NBHML_Tester2.java",
+              "sha": "657e0f735959de5e19b5421f804c7a58b80bb147",
+              "size": 23793
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/maps/nbhm_test/NBHM_Tester2.java",
+              "sha": "922d60fc7c0a957e050a16612df16ec86e86b91d",
+              "size": 26220
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/maps/nbhs_test/nbhs_tester.java",
+              "sha": "08a4654f8bd2a45cfc5824810f7dbc466f7ec144",
+              "size": 4705
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/maps/nbhs_test/nbsi_tester.java",
+              "sha": "2f5a3caf6325fc27e6f5a7cc0d6bb447c8919e6e",
+              "size": 6792
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTest.java",
+              "sha": "776e11422fb5a75fabf32973bcab8f85bdaac4f0",
+              "size": 28949
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestMpmcArray.java",
+              "sha": "25f249ef389c5b2a9ba90c6f974c6af063cb20dd",
+              "size": 1162
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestMpmcUnboundedXadd.java",
+              "sha": "bbe6b0979486d8b3f517b8cce2d74216e56bc072",
+              "size": 6849
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestMpscArray.java",
+              "sha": "e776ed300d4d24c6ff06c64071ffa54e36bbffc0",
+              "size": 1286
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestMpscBlockingConsumer.java",
+              "sha": "d4c70a3e5106f0b7663ae4bc10dde953f59d8597",
+              "size": 2850
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestMpscBlockingConsumerExtended.java",
+              "sha": "6a994023789862c3fb675a8c7c2b26ba902d728d",
+              "size": 2478
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestMpscChunked.java",
+              "sha": "4009d5e39e9b2c40b299b577500d9e87802923c2",
+              "size": 1787
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestMpscCompound.java",
+              "sha": "c425fadf1c3d0179458ae53c2c8eb37a2a5c8900",
+              "size": 962
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestMpscGrowable.java",
+              "sha": "425e884afdcca4fd2c1e4a770ed290fdb2ffae1f",
+              "size": 1853
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestMpscLinked.java",
+              "sha": "111eddbbead6eef6a7e9791e06a6d1a53e35b8bb",
+              "size": 997
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestMpscUnbounded.java",
+              "sha": "54600fe2c4dcc0719257d152c8cca76165814d29",
+              "size": 1698
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestMpscUnboundedXadd.java",
+              "sha": "9b52c6d91ab8e2bfc41739f63d56d700f965570f",
+              "size": 1494
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestSpmcArray.java",
+              "sha": "28265e098ce69764210ec69203120582d4854e2e",
+              "size": 1286
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestSpscArray.java",
+              "sha": "33311efcd0d9556293a698d9f52bb127e648164f",
+              "size": 1286
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestSpscChunked.java",
+              "sha": "907679ed8e2b26a7c33c440edfcdb86d4757089c",
+              "size": 2117
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestSpscGrowable.java",
+              "sha": "24a87cc852155146dc10d1ac30a795b4dc0b3d9d",
+              "size": 1738
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestSpscLinked.java",
+              "sha": "01ef7bd34a050ffea9a611d5cdd3065deae8d098",
+              "size": 997
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestSpscUnbounded.java",
+              "sha": "1c75695d5946904a93de6ffe2ac4e5b833c7c691",
+              "size": 1699
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/MpscArrayQueueSnapshotTest.java",
+              "sha": "d404fd1bea29694dc6ddcbc66d3a8a5a2922c83d",
+              "size": 2620
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/MpscUnboundedArrayQueueSnapshotTest.java",
+              "sha": "c0024048caea61ced523c33c47af4a45037a7997",
+              "size": 3901
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTest.java",
+              "sha": "f2adce98add3c664e3891b8680ea5fc32800f0ed",
+              "size": 23648
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpmcArray.java",
+              "sha": "0881783292324536913551054b4c98f8c2018234",
+              "size": 2833
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpmcUnboundedXadd.java",
+              "sha": "7a3071abbd850767da8ec1e75be0a82512f1c4ac",
+              "size": 1700
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscArray.java",
+              "sha": "1c923258feec5c445b3cd4896ff5b2c1fa2f6af3",
+              "size": 3033
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscArrayExtended.java",
+              "sha": "69ebeb01cdccdc290244eaceb7b154d359e3a24f",
+              "size": 2570
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscBlockingConsumer.java",
+              "sha": "bfd69f5f3e4e095da9d67450e2bbaa38bdfdc9d7",
+              "size": 939
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscBlockingConsumerArrayExtended.java",
+              "sha": "e7427e24b857d4eb36c893d53ef961e8e619a35f",
+              "size": 15909
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscBlockingConsumerOfferBelowThreshold.java",
+              "sha": "d29d709ebabe3b217fafae6e0cdcfddc43212615",
+              "size": 2024
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscChunked.java",
+              "sha": "edc4b48a4d71eae7a49ca3e70667cdb8a08823a1",
+              "size": 2381
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscChunkedExtended.java",
+              "sha": "f882634e85aaafdd6cf13edea72b106457ae77e2",
+              "size": 350
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscCompound.java",
+              "sha": "4c3b037b301d34294bfa370ed2b57c5eb45ed978",
+              "size": 947
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscGrowable.java",
+              "sha": "bccff5fcee01f5ea6d9ca252e2d451e9705fd4b7",
+              "size": 961
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscLinked.java",
+              "sha": "61b10c67905d58b0d779715a67f455518c08d3ba",
+              "size": 945
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscOfferBelowThreshold.java",
+              "sha": "8f791e15a5e6ef0d25dd0b8da00ad2021a551bf0",
+              "size": 1880
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscUnboundedArray.java",
+              "sha": "892ceb67fa7c00e8c013a72b9168fdb9da0154ec",
+              "size": 1848
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscUnboundedXadd.java",
+              "sha": "4b394b51a3a66eb6bbb252a6cfc674d0633302ff",
+              "size": 1509
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestSpmcArray.java",
+              "sha": "c34d4394ebf278e6b27d5fad74808e1c612dfce1",
+              "size": 1225
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestSpscArray.java",
+              "sha": "404d92d8c2ec4f0d713d8ae3f7e446e931f39fa8",
+              "size": 1178
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestSpscArrayExtended.java",
+              "sha": "91b23213ab179e9bb7ae95baaeeee9bd65cb9010",
+              "size": 1401
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestSpscChunked.java",
+              "sha": "9976e8105e8ca282f80f90b5fad95f0562b4a136",
+              "size": 1864
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestSpscChunkedExtended.java",
+              "sha": "37dac858290e567f035b6ca6a43c5ba9d08bf9e3",
+              "size": 351
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestSpscGrowable.java",
+              "sha": "ea362292e84c6aa05575b88e37b2529972db7f25",
+              "size": 2673
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestSpscGrowableExtended.java",
+              "sha": "08dffcea2e00d4f1f94534d65bd27da66d805dfd",
+              "size": 1002
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestSpscLinked.java",
+              "sha": "54b8f46c62f048d76fb28637c725fffd0220d29d",
+              "size": 945
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestSpscUnbounded.java",
+              "sha": "169e6434a9e06ae62180113b7b61d6f69e4c9c6d",
+              "size": 1716
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/ScQueueRemoveTest.java",
+              "sha": "52709e88935f7154e1a74c9b745b3cf70290ecd2",
+              "size": 4912
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/ScQueueRemoveTestMpscLinked.java",
+              "sha": "6046b4890ab5255ba352bb535d9d6fadf3b01231",
+              "size": 225
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/atomic/MpscAtomicArrayQueueOfferWithThresholdTest.java",
+              "sha": "cdafda1dea35bb138bac3c57cc4b2a1c071f12d3",
+              "size": 1185
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/atomic/MpscLinkedAtomicQueueRemoveTest.java",
+              "sha": "89e74f828ce6e20ad411b7eea1eb6c6fd4f63e2a",
+              "size": 290
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/atomic/SpscAtomicArrayQueueTest.java",
+              "sha": "600d7351616c6271dcee0e5682f898ac014ee2d3",
+              "size": 1970
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/matchers/Matchers.java",
+              "sha": "84780ab42577d708ea7b410d889a843248dd23d2",
+              "size": 379
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/spec/ConcurrentQueueSpec.java",
+              "sha": "457c77435663554fd1a281a560abf4c4b0a86b45",
+              "size": 2734
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/spec/Ordering.java",
+              "sha": "9331081af8a9907aa14738ddba6d8f44f620cb48",
+              "size": 685
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/queues/spec/Preference.java",
+              "sha": "1413515283049593cf5aabe454f228ed85c9d57b",
+              "size": 680
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/util/AtomicQueueFactory.java",
+              "sha": "cbf074ee0e2ea85b5fbdea66e051d4f68390c21b",
+              "size": 2163
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/util/PaddedAtomicLongTest.java",
+              "sha": "c060e7cfd7a2baaf8e4ad368fbe93b1051a65fe6",
+              "size": 5349
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/util/QueueFactory.java",
+              "sha": "2565d1239138e5aebe100b958e0ecfaa3fb12c58",
+              "size": 2367
+            },
+            {
+              "path": "jctools-core/src/test/java/org/jctools/util/UnpaddedQueueFactory.java",
+              "sha": "55220026249fad7cdb58c6330dda245478130d2a",
+              "size": 3351
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/BQueue.java",
+              "sha": "3b9cc23b7718768ff4cc5b413bbd6d32289b4426",
+              "size": 8827
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/FFBuffer.java",
+              "sha": "9aadc27c1a8cab2815fd87e6f7a11f249e8958a2",
+              "size": 7513
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/FloatingCountersSpscConcurrentArrayQueue.java",
+              "sha": "6557e8813a081d6a7a77fdca2739ce86d140760e",
+              "size": 8057
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/InlinedCountersSpscConcurrentArrayQueue.java",
+              "sha": "388aee1e6f636bdd1afc90b5ac0613b70005597e",
+              "size": 10972
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/MpmcConcurrentQueueStateMarkers.java",
+              "sha": "16e5789be0026d59ebfee3db29e74a5179b217e5",
+              "size": 13750
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/MpscLinkedArrayQueue.java",
+              "sha": "0b0d0c235b9adb9a17b55188e770ddc38ebfc886",
+              "size": 6994
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/MpscOnSpscQueue.java",
+              "sha": "e0eb46c6c270c1fab6f5437bbb927775ef2a6e7e",
+              "size": 5513
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/MpscRelaxedArrayQueue.java",
+              "sha": "960d2dc2b2e23dfb0d700666cbe913573e8227ab",
+              "size": 34286
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/MpscSequencedArrayQueue.java",
+              "sha": "004073302d4ba170dd99b188ed2b07a7940d6630",
+              "size": 10348
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/SpscOffHeapIntQueue.java",
+              "sha": "2ee4768645641c192212abd3a236d2e4fc2e018c",
+              "size": 6483
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/alt/ConcurrentCircularArray.java",
+              "sha": "cf86bb2c069980153d1246e0e908af1d78e54049",
+              "size": 4172
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/alt/ConcurrentQueue.java",
+              "sha": "9d2db2d2b0f889a9b6c5ad138e113bf97c6d27c4",
+              "size": 1344
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/alt/ConcurrentQueueConsumer.java",
+              "sha": "275d043a1fd9d671a48a21fb4f3b9e0edb4f8a91",
+              "size": 2172
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/alt/ConcurrentQueueFactory.java",
+              "sha": "a4a76e991812b8ce990fe9cf3ee2e18b601de706",
+              "size": 2496
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/alt/ConcurrentQueueProducer.java",
+              "sha": "180b3e8993aadd3c6c499637bb30fafb2a896f49",
+              "size": 1022
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/alt/ConcurrentSequencedCircularArray.java",
+              "sha": "3dc9a929ed9374b40837c7cdfd9ffc6420931c5b",
+              "size": 2912
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/alt/ConsumerFunction.java",
+              "sha": "4eb9f4621e01e7d32f40aef8e98425be36d4e101",
+              "size": 138
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/alt/MpmcArrayConcurrentQueue.java",
+              "sha": "7f5fb02e56ed7fd4400d833b6b73a4fece76f9da",
+              "size": 18822
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/alt/MpscArrayConcurrentQueue.java",
+              "sha": "ee5a5ab2ff013e6b16ff9d48fd176eada887d5fb",
+              "size": 17749
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/alt/ProducerFunction.java",
+              "sha": "9e0d9f21e30a6b1d6486506b0406496196abc978",
+              "size": 150
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/alt/SpscArrayConcurrentQueue.java",
+              "sha": "10e3e513c0eb80976cee536c887b033ab0757c91",
+              "size": 9278
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/atomic/MpscRelaxedAtomicArrayQueue.java",
+              "sha": "ec7f5faf1df329874404220fa67a69943011ff3e",
+              "size": 25919
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/blocking/BlockingQueueFactory.java",
+              "sha": "ceb7b4286698c399880ca54b642c3e618dda6d0f",
+              "size": 7007
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/blocking/McParkTakeStrategy.java",
+              "sha": "7844300894298bf59a074fb7166602f5d7f380e6",
+              "size": 1295
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/blocking/PutStrategy.java",
+              "sha": "9d65b2a2d723e12f75f62b6a38e20f8ed003a89b",
+              "size": 286
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/blocking/ScParkTakeStrategy.java",
+              "sha": "0b7c037c38003c8726c9771f836762244ba608b3",
+              "size": 1494
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/blocking/TakeStrategy.java",
+              "sha": "d9cbadd1ea5353f7613e2c18a257b494e47384ff",
+              "size": 278
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/blocking/YieldPutStrategy.java",
+              "sha": "a2de4c5e10bdb366adfb91c19bb33811fee0014a",
+              "size": 717
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/blocking/YieldTakeStrategy.java",
+              "sha": "efee2b4a903b600701718c8b1f4f92fe252d6c85",
+              "size": 573
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/intrusive/MpscIntrusiveLinkedQueue.java",
+              "sha": "5a02c755ad9a1ac448b183167e1edf6543198fb8",
+              "size": 7621
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/intrusive/Node.java",
+              "sha": "1ffdd9ee43f6ae013ef31c8cd2e6fdebb84322a4",
+              "size": 1154
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/queues/intrusive/NodeImpl.java",
+              "sha": "ae96aa6ed6e605403784237257c1d6faebf2c9eb",
+              "size": 902
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/sets/IdentityOpenHashSet.java",
+              "sha": "2670c5f087244caa0aefa4cc80b7327d5ea97316",
+              "size": 8211
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/sets/OpenHashSet.java",
+              "sha": "549761e9d7101cdb6fe8540058f80749db2cb1c2",
+              "size": 8294
+            },
+            {
+              "path": "jctools-experimental/src/main/java/org/jctools/sets/SingleWriterHashSet.java",
+              "sha": "6dbf1ce50811279e251adfa8ef10b3eec402e2c6",
+              "size": 10748
+            },
+            {
+              "path": "jctools-experimental/src/main/resources/org/jctools/queues/blocking/TemplateBlocking.java",
+              "sha": "dd217a26847959a0c0b4d13b75f373095c97fc8b",
+              "size": 2143
+            },
+            {
+              "path": "jctools-experimental/src/test/java/org/jctools/queues/MpqSanityTestMpscRelaxedArray.java",
+              "sha": "c7adb552bc3dc505691978d13a0a035c77f988b5",
+              "size": 1817
+            },
+            {
+              "path": "jctools-experimental/src/test/java/org/jctools/queues/QueueSanityTestMpscRelaxed.java",
+              "sha": "c6e302d23d7cdfc10caeeb4796b32d1b26a7d68d",
+              "size": 1788
+            },
+            {
+              "path": "jctools-experimental/src/test/java/org/jctools/queues/alt/ConcurrentQueueSanityTest.java",
+              "sha": "949fa0c78aa291f9a28b68781aae5ce78200f3d1",
+              "size": 5094
+            },
+            {
+              "path": "jctools-experimental/src/test/java/org/jctools/queues/atomic/AtomicQueueSanityTestMpscRelaxedArray.java",
+              "sha": "e3d5cd797398cb7025478ecfea93d95481ecde5d",
+              "size": 1899
+            },
+            {
+              "path": "jctools-experimental/src/test/java/org/jctools/queues/blocking/BasicBlockingQueueTest.java",
+              "sha": "4166c26ed29adeaefb26ca5452c6d9f387319103",
+              "size": 1060
+            },
+            {
+              "path": "jctools-experimental/src/test/java/org/jctools/queues/blocking/BlockingQueueTest.java",
+              "sha": "00d2e712e904d3ce15e9d77e477418808fa789a1",
+              "size": 5462
+            },
+            {
+              "path": "jctools-experimental/src/test/java/org/jctools/queues/intrusive/IntrusiveQueueSanityTest.java",
+              "sha": "c380e7c4de97fec1f06c532f818a17f40c0680c6",
+              "size": 8532
+            },
+            {
+              "path": "jctools-experimental/src/test/java/org/jctools/queues/intrusive/TestNode.java",
+              "sha": "3fce2b7d2040e54f6fb6e4cbc5967f6887975469",
+              "size": 659
+            },
+            {
+              "path": "jctools-experimental/src/test/java/org/jctools/sets/HashSetTest.java",
+              "sha": "cf5bf779ca2bc0edf945157df41ab2b32e7ef1f7",
+              "size": 2967
+            },
+            {
+              "path": "jctools-experimental/src/test/java/org/jctools/sets/SingleWriterHashSetTest.java",
+              "sha": "b7d53a514f4f648933fd0bff3ed148b906674af0",
+              "size": 1221
+            }
+          ],
+          "concurrent_file_count": 275
+        }
+      },
+      {
+        "name": "ConcurrencyFreaks",
+        "full_name": "pramalhe/ConcurrencyFreaks",
+        "owner": "pramalhe",
+        "description": null,
+        "language": "Java",
+        "stars": 437,
+        "forks": 54,
+        "size": 14259,
+        "clone_url": "https://github.com/pramalhe/ConcurrencyFreaks.git",
+        "ssh_url": "git@github.com:pramalhe/ConcurrencyFreaks.git",
+        "html_url": "https://github.com/pramalhe/ConcurrencyFreaks",
+        "created_at": "2013-04-29T09:47:27Z",
+        "updated_at": "2025-06-08T16:54:58Z",
+        "topics": [
+          "c-plus-plus",
+          "concurrency",
+          "java",
+          "lock-free",
+          "low-latency",
+          "wait-free"
+        ],
+        "license": "Other",
+        "default_branch": "master",
+        "structure_analysis": {
+          "total_files": 304,
+          "concurrent_files": [
+            {
+              "path": "C11/locks/clh_mutex.h",
+              "sha": "d68c89a5f1533594f547c00d9083f45444ba4678",
+              "size": 2379
+            },
+            {
+              "path": "C11/locks/mpsc_mutex.h",
+              "sha": "46cb5fde4b567e31bedcb8974c984483c874e1b6",
+              "size": 2439
+            },
+            {
+              "path": "C11/locks/ticket_mutex.h",
+              "sha": "3121087a236bfcc9a1d767244bced197c1ff2476",
+              "size": 2315
+            },
+            {
+              "path": "C11/locks/ticketawn/ticket_awnee_mutex.h",
+              "sha": "04550133d3f85b980f72acd4b4ea4ebd31e580f8",
+              "size": 2714
+            },
+            {
+              "path": "C11/locks/ticketawn/ticket_awnne_mutex.h",
+              "sha": "6ada0928e3b18aa84d7fd10bd534781be87216c3",
+              "size": 2754
+            },
+            {
+              "path": "C11/locks/ticketawn/ticket_awnsb_mutex.h",
+              "sha": "601cbdf8a22ceaad8f663140bf56faa926c2ec5e",
+              "size": 2739
+            },
+            {
+              "path": "C11/locks/tidex_mutex.h",
+              "sha": "e9cdd2193b7a0dffc1999257c2b582307aa7d9e5",
+              "size": 2517
+            },
+            {
+              "path": "C11/locks/tidex_nps_mutex.h",
+              "sha": "3b5de82c82de3643675a3746e29a73e08faa4919",
+              "size": 2486
+            },
+            {
+              "path": "C11/papers/tidex/ticket_mutex.h",
+              "sha": "be6ec3d81880cf83a95821112a39059557e923d4",
+              "size": 2324
+            },
+            {
+              "path": "C11/papers/tidex/tidex_mutex.h",
+              "sha": "bf416da30a795a22ef5421f52bb98f78df3ad83d",
+              "size": 2497
+            },
+            {
+              "path": "CPP/lists/LinkedListSet.h",
+              "sha": "2200091457ea221459a3b12c5a4ed474c613c101",
+              "size": 5433
+            },
+            {
+              "path": "CPP/papers/crturnqueue/include/BenchmarkLatencyQ.hpp",
+              "sha": "bfb3949076464bc88a963e24b33c12e2263fd799",
+              "size": 13271
+            },
+            {
+              "path": "CPP/papers/crturnqueue/include/BenchmarkQ.hpp",
+              "sha": "d959ffb0e790076e41eefd157d18eb1d5f88c87a",
+              "size": 16226
+            },
+            {
+              "path": "CPP/papers/crturnqueue/include/CRTurnQueue.hpp",
+              "sha": "289ac72b4fdef2e3d9ddb7bb0fb28bf27c116a00",
+              "size": 10480
+            },
+            {
+              "path": "CPP/papers/crturnqueue/include/HazardPointers.hpp",
+              "sha": "0b3b52841a4d1929a35873337aab2f21803d86ae",
+              "size": 5584
+            },
+            {
+              "path": "CPP/papers/crturnqueue/include/MichaelScottQueue.hpp",
+              "sha": "dfaa20e9bdae0c2ff4472c752dfd161ba7d713c2",
+              "size": 5600
+            },
+            {
+              "path": "CPP/papers/crturnqueue/src/benchmark.cpp",
+              "sha": "e56e95c72170ec249ae4e39be046ea280f3b1152",
+              "size": 1261
+            },
+            {
+              "path": "CPP/papers/crturnqueue/src/latency.cpp",
+              "sha": "d4a339e006d49e955d76e4df2380ce658ed3a44d",
+              "size": 247
+            },
+            {
+              "path": "CPP/papers/crturnqueue/src/stress.cpp",
+              "sha": "72986a56e3ab8b39dac73d21511644848bc2e450",
+              "size": 561
+            },
+            {
+              "path": "CPP/papers/gracesharingurcu/RIAtomicCounter.hpp",
+              "sha": "bfe84b97586e4df11d71864c9f78f549e03a8f37",
+              "size": 2805
+            },
+            {
+              "path": "CPP/papers/gracesharingurcu/RIAtomicCounterArray.hpp",
+              "sha": "efafe89f504a259c60b16bf28bb3203bfe284169",
+              "size": 3808
+            },
+            {
+              "path": "CPP/papers/gracesharingurcu/URCUGraceVersionSyncScale.hpp",
+              "sha": "8751aa088e9b9e096b5183f36faf8f11eb6e6782",
+              "size": 3893
+            },
+            {
+              "path": "CPP/pqueues/HazardPointers.hpp",
+              "sha": "512a0c9898d765c4d680029deee1c3a2f3e5025d",
+              "size": 6325
+            },
+            {
+              "path": "CPP/pqueues/MichaelScottQueue.hpp",
+              "sha": "e0937d374e1ebc533d03684a94f25e07dcfb6389",
+              "size": 5600
+            },
+            {
+              "path": "CPP/pqueues/PMichaelScottQueue.hpp",
+              "sha": "1113781446d7a6545ba6b0a9ec6ae299349a7e0b",
+              "size": 13009
+            },
+            {
+              "path": "CPP/pqueues/pfences.h",
+              "sha": "427e941a460b0e286d20f4bb102afc034bc8b24a",
+              "size": 5039
+            },
+            {
+              "path": "CPP/queues/BitNextLazyHeadQueue.hpp",
+              "sha": "f9ce0d8848a4af2c75a03d156ea3d0f1741908e6",
+              "size": 8660
+            },
+            {
+              "path": "CPP/queues/BitNextQueue.hpp",
+              "sha": "7ee1fd18f858ddf4275aeddc16e13e9bcd69204a",
+              "size": 8035
+            },
+            {
+              "path": "CPP/queues/CRDoubleLinkQueue.hpp",
+              "sha": "102d8af746e32a76d4c2e21ea8dfa7dcdeae1ea1",
+              "size": 5730
+            },
+            {
+              "path": "CPP/queues/CRTurnQueue.hpp",
+              "sha": "d24a22b44c9eb7567264914efbdcbb94e4939fe5",
+              "size": 10480
+            },
+            {
+              "path": "CPP/queues/HazardPointers.hpp",
+              "sha": "af72a0ea24fb6a3381ad55ab0b7df39609c7a482",
+              "size": 5711
+            },
+            {
+              "path": "CPP/queues/HazardPointersConditional.hpp",
+              "sha": "dc45b3dbd6841e43b9f5d283a57be8c25820c4a9",
+              "size": 5052
+            },
+            {
+              "path": "CPP/queues/HazardPointersDL.hpp",
+              "sha": "59534488e298c03021ac1f77dfd0c7530663a0b5",
+              "size": 4875
+            },
+            {
+              "path": "CPP/queues/KoganPetrankQueueCHP.hpp",
+              "sha": "b193fae1a168571524ba8d2995a3398f267b6481",
+              "size": 14678
+            },
+            {
+              "path": "CPP/queues/LCRQueue.hpp",
+              "sha": "e9e07c055a1cac0437dfe4ca49109edf61045116",
+              "size": 11610
+            },
+            {
+              "path": "CPP/queues/MichaelScottQueue.hpp",
+              "sha": "e0937d374e1ebc533d03684a94f25e07dcfb6389",
+              "size": 5600
+            },
+            {
+              "path": "CPP/queues/array/FAAArrayQueue.hpp",
+              "sha": "d0ebcc28620c59fd2a1fa6f070d55096dc707f58",
+              "size": 7651
+            },
+            {
+              "path": "CPP/queues/array/LazyIndexArrayQueue.hpp",
+              "sha": "770172b503e7ea6a0d3d7bfdac6f809fa92eb380",
+              "size": 8114
+            },
+            {
+              "path": "CPP/queues/array/LinearArrayQueue.hpp",
+              "sha": "6818145a8713909b9d8eb61b68430dfa7ee7bede",
+              "size": 7779
+            },
+            {
+              "path": "CPP/queues/array/Log2ArrayQueue.hpp",
+              "sha": "a8b5fb73ae4b811d9e57e46768e74b84a1e947e8",
+              "size": 9566
+            },
+            {
+              "path": "CPP/trees/COWLockMap.h",
+              "sha": "29f5fc090ce9632be3334aa6a88fe712bef51071",
+              "size": 4412
+            },
+            {
+              "path": "CPP/trees/LRClassicMap.h",
+              "sha": "d24190fb10d163db1add4e1e5a9b74a42a8dc67f",
+              "size": 5116
+            },
+            {
+              "path": "CPP/trees/RWLockPthreadMap.h",
+              "sha": "39c84a026c74f63d8c492ec63628cd944af99b47",
+              "size": 3478
+            },
+            {
+              "path": "CPP/trees/RWLockSharedMutexMap.h",
+              "sha": "3c96531cfd21ace96d6e9e49d97130ba83431a4a",
+              "size": 3065
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/cow/BenchmarkTreeSets.java",
+              "sha": "bd6bae4cf239b3543add3f40eb3c20a63070432b",
+              "size": 32474
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/cow/CopyOnWriteCASTreeSet.java",
+              "sha": "7ecaeb01323da527ff70176c7cdf3f5d1276e780",
+              "size": 3542
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/cow/CopyOnWriteLockTreeSet.java",
+              "sha": "4dd7a437fd78d45471a28b3c496a3b0a13696671",
+              "size": 3496
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/cow/CopyOnWriteMQLFTreeMap.java",
+              "sha": "5f14f7aa5527ee5f462f1bfaa1be4cf0ee67f73b",
+              "size": 3295
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/cow/CopyOnWriteMQLFTreeSet.java",
+              "sha": "03b03da2684ccae5cee6518d7f51e4e037b6d020",
+              "size": 3550
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/cow/CopyOnWriteMQWFTreeMap.java",
+              "sha": "58d653c1f57f39dd8eb5b0cc932e2a8f71ad6295",
+              "size": 11186
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/cow/CopyOnWriteMQWFTreeSet.java",
+              "sha": "ce6168778b4512c9154da9293646e88a2188b4cb",
+              "size": 3675
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/cow/ITreeSet.java",
+              "sha": "106d796c1c43ad8183e71730b18b0abb002bb92b",
+              "size": 259
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/experimental/LRTreeSetDCNV.java",
+              "sha": "f43307610e78f94b2f76ddb3e7f0809d7b6a75ac",
+              "size": 8765
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/experimental/LRTreeSetGT.java",
+              "sha": "6a324fe5be0e459aa6680f7b72281d32d3ef7871",
+              "size": 8778
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/experimental/LRTreeSetScalableGT.java",
+              "sha": "cecb4ea354ab30f6eccafda7092fbee86b78ae18",
+              "size": 11929
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/jdkext/AtomicIntegerArray.java",
+              "sha": "e665fd3774d366560e16ad2c4b6d50fe573e1ee3",
+              "size": 11244
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/list/ConcurrentLinkedQueueRelaxed.java",
+              "sha": "66e1ba1469d6d7d206fcd1037244a4dff016c3dd",
+              "size": 32246
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/locks/TidexMutex.java",
+              "sha": "acfde8abfc25864ada98abd7a4c0f633a1c95c64",
+              "size": 5731
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/papers/COWMutationQ/BenchmarkTreeSets.java",
+              "sha": "dab7d7983908700e9d71bcf35fc23a330c79d440",
+              "size": 29291
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/papers/COWMutationQ/CRWWPLockTreeSet.java",
+              "sha": "f91fe032a452a5f70b045d493108ad7b0787a354",
+              "size": 3479
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/papers/COWMutationQ/CopyOnWriteCASTreeSet.java",
+              "sha": "911980b0d72e0bde1e4d8c66dcf698574be21e71",
+              "size": 3558
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/papers/COWMutationQ/CopyOnWriteLockTreeSet.java",
+              "sha": "910e0321e9d70d61b8638aa95df6dbf1ad45a739",
+              "size": 3512
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/papers/COWMutationQ/CopyOnWriteMQLFTreeSet.java",
+              "sha": "0c7474760479e5e55d1a6593dd9e9766b768638e",
+              "size": 3564
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/papers/COWMutationQ/CopyOnWriteMQWFTreeSet.java",
+              "sha": "551e1e90c82cafdb09ae9c04190330bb07ff30ae",
+              "size": 3564
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/papers/COWMutationQ/ITreeSet.java",
+              "sha": "fb68f03d34bbc7eb3b7cdc96eab080d00e151a2b",
+              "size": 275
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/papers/COWMutationQ/LeftRightTreeSet.java",
+              "sha": "74f40a8e863cb46fa0baa1b9046bbba15241c667",
+              "size": 3473
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/papers/COWMutationQ/ReentrantLockTreeSet.java",
+              "sha": "774706c8a39be91595a2bac5eb330d1ab8dea32d",
+              "size": 3200
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/papers/COWMutationQ/StampedLockTreeSet.java",
+              "sha": "93afc4567b54199fc6c4cbc4155565ab36f75846",
+              "size": 3350
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/papers/LeftRight/BenchmarkTreeSetFullRebalance.java",
+              "sha": "5a7f9ab8aa2c08efd9904f11c583a04f55feb8ef",
+              "size": 20136
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/papers/LeftRight/BenchmarkTreeSetLatency.java",
+              "sha": "ee93998f589db5f522e70703e0431da941e1e575",
+              "size": 14596
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/papers/LeftRight/LRScalableTreeSet.java",
+              "sha": "6fd965875395b38ff587c08a616766dda558cb0a",
+              "size": 15388
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/papers/LeftRight/LRScalableTreeSetNV.java",
+              "sha": "428e84e3aa7c685ea9c7f729a10de57b661515e7",
+              "size": 11714
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/papers/LeftRight/LRScalableTreeSetRV.java",
+              "sha": "de583a23988dab15728f7230341e2808e744bedf",
+              "size": 12511
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/papers/LeftRight/ScalableRWLockTreeSet.java",
+              "sha": "b88b04b11c972239d93d992bcc84f477707bc6a3",
+              "size": 4941
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/queues/CRDoubleLinkQueue.java",
+              "sha": "4528f88fca76e033925b522011a89d20909da04f",
+              "size": 7670
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/queues/CRSimQueue.java",
+              "sha": "8b5e58e164ac948f9c9471f192179cc63a6b5d0c",
+              "size": 11692
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/queues/CRTurnQueue.java",
+              "sha": "fccc8f48964d6290803fcd0f36e3298215d0ef43",
+              "size": 10856
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/queues/EncapsulatorQueue.java",
+              "sha": "dc7402f77f77783a8a7a9d8a58cad173de18e562",
+              "size": 9463
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/queues/IQueue.java",
+              "sha": "66ca4687d0de8f962276afa306fa598ee949af13",
+              "size": 207
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/queues/KoganPetrankNoSLQueue.java",
+              "sha": "897e0ed14bf97eeaa20f886a043a84b4d2de3a44",
+              "size": 8825
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/queues/KoganPetrankQueue.java",
+              "sha": "0854e3b5f4b6b53321d365e07a97d7135229a545",
+              "size": 8895
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/queues/array/FAAArrayQueue.java",
+              "sha": "dababd71c366a18b1088a393c67601c434f34167",
+              "size": 8264
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/queues/array/LazyIndexArrayQueue.java",
+              "sha": "ac4b2e9267246d66b80eab7ad7ac979275ab7086",
+              "size": 8372
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/queues/array/LinearArrayQueue.java",
+              "sha": "d205740e2bcff1c5e383e219a4b30132096635f4",
+              "size": 8280
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/queues/array/Log2ArrayQueue.java",
+              "sha": "73dbe579410f49a123562a7774dc8150307e4e4d",
+              "size": 9677
+            },
+            {
+              "path": "Java/com/concurrencyfreaks/readindicators/RIAtomicCounter.java",
+              "sha": "a93291448d14445164cd33947d2b4cfe365b5f24",
+              "size": 2753
+            }
+          ],
+          "concurrent_file_count": 86
+        }
+      },
+      {
+        "name": "traffic-shm",
+        "full_name": "peptos/traffic-shm",
+        "owner": "peptos",
+        "description": "traffic-shm (Anna) is a Java based lock free IPC library.",
+        "language": "Java",
+        "stars": 90,
+        "forks": 25,
+        "size": 449,
+        "clone_url": "https://github.com/peptos/traffic-shm.git",
+        "ssh_url": "git@github.com:peptos/traffic-shm.git",
+        "html_url": "https://github.com/peptos/traffic-shm",
+        "created_at": "2016-09-22T09:15:47Z",
+        "updated_at": "2025-06-02T19:26:19Z",
+        "topics": [
+          "alignment",
+          "anna",
+          "async",
+          "cache-line-padding",
+          "cross-platform",
+          "false-sharing",
+          "fifo",
+          "inter-process-communication",
+          "ipc",
+          "java",
+          "lock-free",
+          "mapped-file",
+          "memory-mapped-file",
+          "mmap",
+          "mmf",
+          "queue",
+          "ringbuffer",
+          "shared-memory",
+          "traffic-shm"
+        ],
+        "license": "Apache License 2.0",
+        "default_branch": "master",
+        "structure_analysis": {
+          "total_files": 50,
+          "concurrent_files": [
+            {
+              "path": "src/main/java/io/traffic/shm/async/Block.java",
+              "sha": "33a69dda64fca09df2f770b9116ec476ad57fab0",
+              "size": 4415
+            },
+            {
+              "path": "src/main/java/io/traffic/shm/async/Cursor.java",
+              "sha": "0d7bc15ad559e7475a14b508842c38fed593b280",
+              "size": 1505
+            },
+            {
+              "path": "src/main/java/io/traffic/shm/async/Metadata.java",
+              "sha": "6723e864b0e0e965746f260f97838ed6f7e67399",
+              "size": 4064
+            },
+            {
+              "path": "src/main/java/io/traffic/shm/async/Queue.java",
+              "sha": "d9af512e26b0de88263bef87f7b393355aefae5f",
+              "size": 4574
+            },
+            {
+              "path": "src/main/java/io/traffic/shm/file/MappedFile.java",
+              "sha": "1c1fb9871893f2b026b014021f56f14a51b91014",
+              "size": 5535
+            },
+            {
+              "path": "src/test/java/io/traffic/shm/test/TestMappedFile.java",
+              "sha": "8cfbec9f7f971825c30cf6367884035d0e80a45a",
+              "size": 2013
+            }
+          ],
+          "concurrent_file_count": 6
+        }
+      },
+      {
+        "name": "low-latency-primitive-concurrent-queues",
+        "full_name": "RobAustin/low-latency-primitive-concurrent-queues",
+        "owner": "RobAustin",
+        "description": "Low latency, lock free, primitive bounded blocking queues backed by an primitive arrays such as an int[]. These classes mimic the interface of BlockingQueue, they work with primitive rather than Objects so are unable to actually implement the BlockingQueue. They take advantage of the Unsafe.putOrdered<X>, which allows the creation of non-blocking code with guaranteed writes. These writes will not be re-orderd by instruction reordering. Under the covers they use a faster store-store barrier, rather than the the slower store-load barrier, which is used when doing a volatile write. One of the trade off with this improved performance is we are limited to a single producer, single consumer. ",
+        "language": "Java",
+        "stars": 67,
+        "forks": 22,
+        "size": 1529,
+        "clone_url": "https://github.com/RobAustin/low-latency-primitive-concurrent-queues.git",
+        "ssh_url": "git@github.com:RobAustin/low-latency-primitive-concurrent-queues.git",
+        "html_url": "https://github.com/RobAustin/low-latency-primitive-concurrent-queues",
+        "created_at": "2014-01-26T11:31:00Z",
+        "updated_at": "2023-08-04T11:51:44Z",
+        "topics": [],
+        "license": "Apache License 2.0",
+        "default_branch": "master",
+        "structure_analysis": {
+          "total_files": 30,
+          "concurrent_files": [
+            {
+              "path": "src/main/java/uk/co/boundedbuffer/AbstractBlockingQueue.java",
+              "sha": "6699ffb0d1725335ac0f40ccddb91666b8333b97",
+              "size": 12864
+            },
+            {
+              "path": "src/main/java/uk/co/boundedbuffer/ConcurrentBlockingByteQueue.java",
+              "sha": "e859bb57ee161122517baf8ff274cd13b1d6250b",
+              "size": 22119
+            },
+            {
+              "path": "src/main/java/uk/co/boundedbuffer/ConcurrentBlockingDoubleQueue.java",
+              "sha": "3074da1540b19146ad135bca25f760710989e5f8",
+              "size": 21303
+            },
+            {
+              "path": "src/main/java/uk/co/boundedbuffer/ConcurrentBlockingFloatQueue.java",
+              "sha": "d678bd33893abd3d8c8d40b37a8aca185796710c",
+              "size": 21178
+            },
+            {
+              "path": "src/main/java/uk/co/boundedbuffer/ConcurrentBlockingIntQueue.java",
+              "sha": "55c49124fe4d309bed444df6c13f2dfb7d929cb3",
+              "size": 21077
+            },
+            {
+              "path": "src/main/java/uk/co/boundedbuffer/ConcurrentBlockingLongQueue.java",
+              "sha": "391dff65a52586a650a6b7430fa75231667367f1",
+              "size": 21405
+            },
+            {
+              "path": "src/main/java/uk/co/boundedbuffer/ConcurrentBlockingObjectQueue.java",
+              "sha": "25a6af5b472538330c97a218987179046ce1b961",
+              "size": 31925
+            },
+            {
+              "path": "src/main/java/uk/co/boundedbuffer/ConcurrentBlockingShortQueue.java",
+              "sha": "5296b811180e131fe0a922ab10247979e465bf69",
+              "size": 21271
+            },
+            {
+              "path": "src/test/java/uk/co/boundedbuffer/ArrayBlockingQueueTest.java",
+              "sha": "9920f343d8e38f9baeb837726aaf703edf8d9370",
+              "size": 29112
+            },
+            {
+              "path": "src/test/java/uk/co/boundedbuffer/BlockingQueueTest.java",
+              "sha": "f543035634c330fe096a1dd6711b6aaf009e6584",
+              "size": 11857
+            },
+            {
+              "path": "src/test/java/uk/co/boundedbuffer/ConcurrentBlockingObjectQueueTest.java",
+              "sha": "b3b0ce855ae236840c68d3ae9ffc65c8ff7a2cbe",
+              "size": 12176
+            }
+          ],
+          "concurrent_file_count": 11
+        }
+      }
+    ]
+  },
+  "repositories": [
+    {
+      "name": "traffic-shm",
+      "full_name": "peptos/traffic-shm",
+      "owner": "peptos",
+      "description": "traffic-shm (Anna) is a Java based lock free IPC library.",
+      "language": "Java",
+      "stars": 90,
+      "forks": 25,
+      "size": 449,
+      "clone_url": "https://github.com/peptos/traffic-shm.git",
+      "ssh_url": "git@github.com:peptos/traffic-shm.git",
+      "html_url": "https://github.com/peptos/traffic-shm",
+      "created_at": "2016-09-22T09:15:47Z",
+      "updated_at": "2025-06-02T19:26:19Z",
+      "topics": [
+        "alignment",
+        "anna",
+        "async",
+        "cache-line-padding",
+        "cross-platform",
+        "false-sharing",
+        "fifo",
+        "inter-process-communication",
+        "ipc",
+        "java",
+        "lock-free",
+        "mapped-file",
+        "memory-mapped-file",
+        "mmap",
+        "mmf",
+        "queue",
+        "ringbuffer",
+        "shared-memory",
+        "traffic-shm"
+      ],
+      "license": "Apache License 2.0",
+      "default_branch": "master",
+      "structure_analysis": {
+        "total_files": 50,
+        "concurrent_files": [
+          {
+            "path": "src/main/java/io/traffic/shm/async/Block.java",
+            "sha": "33a69dda64fca09df2f770b9116ec476ad57fab0",
+            "size": 4415
+          },
+          {
+            "path": "src/main/java/io/traffic/shm/async/Cursor.java",
+            "sha": "0d7bc15ad559e7475a14b508842c38fed593b280",
+            "size": 1505
+          },
+          {
+            "path": "src/main/java/io/traffic/shm/async/Metadata.java",
+            "sha": "6723e864b0e0e965746f260f97838ed6f7e67399",
+            "size": 4064
+          },
+          {
+            "path": "src/main/java/io/traffic/shm/async/Queue.java",
+            "sha": "d9af512e26b0de88263bef87f7b393355aefae5f",
+            "size": 4574
+          },
+          {
+            "path": "src/main/java/io/traffic/shm/file/MappedFile.java",
+            "sha": "1c1fb9871893f2b026b014021f56f14a51b91014",
+            "size": 5535
+          },
+          {
+            "path": "src/test/java/io/traffic/shm/test/TestMappedFile.java",
+            "sha": "8cfbec9f7f971825c30cf6367884035d0e80a45a",
+            "size": 2013
+          }
+        ],
+        "concurrent_file_count": 6
+      }
+    },
+    {
+      "name": "low-latency-primitive-concurrent-queues",
+      "full_name": "RobAustin/low-latency-primitive-concurrent-queues",
+      "owner": "RobAustin",
+      "description": "Low latency, lock free, primitive bounded blocking queues backed by an primitive arrays such as an int[]. These classes mimic the interface of BlockingQueue, they work with primitive rather than Objects so are unable to actually implement the BlockingQueue. They take advantage of the Unsafe.putOrdered<X>, which allows the creation of non-blocking code with guaranteed writes. These writes will not be re-orderd by instruction reordering. Under the covers they use a faster store-store barrier, rather than the the slower store-load barrier, which is used when doing a volatile write. One of the trade off with this improved performance is we are limited to a single producer, single consumer. ",
+      "language": "Java",
+      "stars": 67,
+      "forks": 22,
+      "size": 1529,
+      "clone_url": "https://github.com/RobAustin/low-latency-primitive-concurrent-queues.git",
+      "ssh_url": "git@github.com:RobAustin/low-latency-primitive-concurrent-queues.git",
+      "html_url": "https://github.com/RobAustin/low-latency-primitive-concurrent-queues",
+      "created_at": "2014-01-26T11:31:00Z",
+      "updated_at": "2023-08-04T11:51:44Z",
+      "topics": [],
+      "license": "Apache License 2.0",
+      "default_branch": "master",
+      "structure_analysis": {
+        "total_files": 30,
+        "concurrent_files": [
+          {
+            "path": "src/main/java/uk/co/boundedbuffer/AbstractBlockingQueue.java",
+            "sha": "6699ffb0d1725335ac0f40ccddb91666b8333b97",
+            "size": 12864
+          },
+          {
+            "path": "src/main/java/uk/co/boundedbuffer/ConcurrentBlockingByteQueue.java",
+            "sha": "e859bb57ee161122517baf8ff274cd13b1d6250b",
+            "size": 22119
+          },
+          {
+            "path": "src/main/java/uk/co/boundedbuffer/ConcurrentBlockingDoubleQueue.java",
+            "sha": "3074da1540b19146ad135bca25f760710989e5f8",
+            "size": 21303
+          },
+          {
+            "path": "src/main/java/uk/co/boundedbuffer/ConcurrentBlockingFloatQueue.java",
+            "sha": "d678bd33893abd3d8c8d40b37a8aca185796710c",
+            "size": 21178
+          },
+          {
+            "path": "src/main/java/uk/co/boundedbuffer/ConcurrentBlockingIntQueue.java",
+            "sha": "55c49124fe4d309bed444df6c13f2dfb7d929cb3",
+            "size": 21077
+          },
+          {
+            "path": "src/main/java/uk/co/boundedbuffer/ConcurrentBlockingLongQueue.java",
+            "sha": "391dff65a52586a650a6b7430fa75231667367f1",
+            "size": 21405
+          },
+          {
+            "path": "src/main/java/uk/co/boundedbuffer/ConcurrentBlockingObjectQueue.java",
+            "sha": "25a6af5b472538330c97a218987179046ce1b961",
+            "size": 31925
+          },
+          {
+            "path": "src/main/java/uk/co/boundedbuffer/ConcurrentBlockingShortQueue.java",
+            "sha": "5296b811180e131fe0a922ab10247979e465bf69",
+            "size": 21271
+          },
+          {
+            "path": "src/test/java/uk/co/boundedbuffer/ArrayBlockingQueueTest.java",
+            "sha": "9920f343d8e38f9baeb837726aaf703edf8d9370",
+            "size": 29112
+          },
+          {
+            "path": "src/test/java/uk/co/boundedbuffer/BlockingQueueTest.java",
+            "sha": "f543035634c330fe096a1dd6711b6aaf009e6584",
+            "size": 11857
+          },
+          {
+            "path": "src/test/java/uk/co/boundedbuffer/ConcurrentBlockingObjectQueueTest.java",
+            "sha": "b3b0ce855ae236840c68d3ae9ffc65c8ff7a2cbe",
+            "size": 12176
+          }
+        ],
+        "concurrent_file_count": 11
+      }
+    },
+    {
+      "name": "JCTools",
+      "full_name": "JCTools/JCTools",
+      "owner": "JCTools",
+      "description": null,
+      "language": "Java",
+      "stars": 3673,
+      "forks": 572,
+      "size": 7891,
+      "clone_url": "https://github.com/JCTools/JCTools.git",
+      "ssh_url": "git@github.com:JCTools/JCTools.git",
+      "html_url": "https://github.com/JCTools/JCTools",
+      "created_at": "2013-11-10T18:04:40Z",
+      "updated_at": "2025-06-08T20:30:16Z",
+      "topics": [
+        "awesome",
+        "benchmarks",
+        "concurrency",
+        "data-structures",
+        "java",
+        "lock-free",
+        "queues",
+        "wait-free"
+      ],
+      "license": "Apache License 2.0",
+      "default_branch": "master",
+      "structure_analysis": {
+        "total_files": 518,
+        "concurrent_files": [
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/channels/spsc/QueueThroughputBaseline.java",
+            "sha": "e06db2b1d426e1cd9bc36e95042e6f32f492b599",
+            "size": 3422
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/handrolled/throughput/spsc/BusyConcurrentQueuePerfTest.java",
+            "sha": "626e8002bcdd8fa70bf7f5d9e9068cbf9000ec9f",
+            "size": 3377
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/handrolled/throughput/spsc/BusyQueuePerfTest.java",
+            "sha": "f0c0e9c6719a17a5ee8cac32c6f2034ed2365a2c",
+            "size": 3177
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/handrolled/throughput/spsc/ConcurrentQueuePerfTest.java",
+            "sha": "d80634ad6c2a16f4eb29728d0e576283c74c974b",
+            "size": 3467
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/handrolled/throughput/spsc/QueuePerfTest.java",
+            "sha": "5bedb6473148421479313125901759348e8118c0",
+            "size": 3489
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/jmh/baseline/QueueOfferPoll.java",
+            "sha": "fbfb7ee1adb94ba8ac8e5f5ff5cbbd8566646fb3",
+            "size": 1824
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/jmh/collections/ConcurrentSetThroughput.java",
+            "sha": "4cec046bfafa6bd2f6285ec3faed88d9c4c710fd",
+            "size": 4609
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/jmh/collections/SetOps.java",
+            "sha": "8d301269dd6fea25310d65ef29ef5070077c9d9c",
+            "size": 2716
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/jmh/latency/QueueAsPoolBurstCost.java",
+            "sha": "0529307d723a09f79e398a687a72808370951d18",
+            "size": 4054
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/jmh/latency/QueueBurstCost.java",
+            "sha": "c7140db4411d86e8170ebba0da75508043f6e30a",
+            "size": 9125
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/jmh/throughput/MpscIntrusiveLinkedQueueThroughputBackoffNone.java",
+            "sha": "ba3bba9105482eb2aeb74ace4ec19e39883676f7",
+            "size": 3210
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/jmh/throughput/QueueThroughputBackoffConsume.java",
+            "sha": "9bfbc50a693b3f2e3f5303e141ad484918639d25",
+            "size": 930
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/jmh/throughput/QueueThroughputBackoffNano.java",
+            "sha": "b678c0e192dab31e8b4bb6d8d2b09a57c8149095",
+            "size": 809
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/jmh/throughput/QueueThroughputBackoffNone.java",
+            "sha": "d7b14d43c8714024134e881a2f492b4f0803acc0",
+            "size": 3323
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/jmh/throughput/QueueThroughputBackoffYield.java",
+            "sha": "0e82447c615e7ebfeca4c72345b570e3f53f3fc1",
+            "size": 751
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/maps/cat_test/AtomicCounter.java",
+            "sha": "928b9c2584359fbc9c7c2817142bbead39db898d",
+            "size": 315
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/maps/cat_test/CATCounter.java",
+            "sha": "1c3bb74a308e62d7d67baeb41351863b1df5a4cf",
+            "size": 432
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/maps/cat_test/Counter.java",
+            "sha": "908f28dd8d00a74060989b787010287e169b236e",
+            "size": 413
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/maps/cat_test/HandrolledHarness.java",
+            "sha": "10e16039ea6a366d777bcbde64adca6bd00775fb",
+            "size": 7475
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/maps/cat_test/LockCounter.java",
+            "sha": "058930a0c336117af3531a72f95e4904f9a4c72a",
+            "size": 406
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/maps/cat_test/RaceyCounter.java",
+            "sha": "949a29aa8532cc0e8aece14de2d67bcbf5de0455",
+            "size": 230
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/maps/cat_test/StripeLockCounter.java",
+            "sha": "52062c9e21c67f450a09a9d0a735993e30719163",
+            "size": 874
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/maps/cat_test/StripeUnsafeCounter.java",
+            "sha": "69bb0b991dea38dec75dd1f902031a4083fa529b",
+            "size": 635
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/maps/cat_test/SyncCounter.java",
+            "sha": "95d673c679389fbf99e7bc9ea67999f4186a4649",
+            "size": 249
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/maps/cat_test/UnsafeCounter.java",
+            "sha": "ace1018506b7fa49d98b21fae4b67c83eb9a54d7",
+            "size": 540
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/maps/nbhm_test/SimpleRandom.java",
+            "sha": "445c1ca337aa8f15b0788ca621ca3e6a7eed944c",
+            "size": 710
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/maps/nbhm_test/jmh/ConcurrentMapThroughput.java",
+            "sha": "79ea54ae76d7cb3c85b4c81637cd3473f7d45865",
+            "size": 5668
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/maps/nbhm_test/perf_hash_test.java",
+            "sha": "64f0989eb80b1a2cb2c41fd180f95c31d904a217",
+            "size": 17022
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/maps/nbhm_test/perf_hashlong_test.java",
+            "sha": "584c64df9f8fbe1cda98f9aefabf78b6e42f71fd",
+            "size": 14482
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/maps/nbhm_test/perf_set_test.java",
+            "sha": "1fe20e161b9e4e422b2dc4605ce519c597ab1a7b",
+            "size": 15163
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/queues/MessagePassingQueueByTypeFactory.java",
+            "sha": "8de05a27ce86116257657a17e4f866d122d1b049",
+            "size": 2901
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/queues/QueueByTypeFactory.java",
+            "sha": "355c925224a8d6263ad70bd5435f8409eb898dd2",
+            "size": 6246
+          },
+          {
+            "path": "jctools-benchmarks/src/main/java/org/jctools/queues/alt/ConcurrentQueueByTypeFactory.java",
+            "sha": "7cfa6b095a3913e0bc3929667446db0d8b7c4569",
+            "size": 1282
+          },
+          {
+            "path": "jctools-build/src/main/java/org/jctools/queues/atomic/JavaParsingAtomicArrayQueueGenerator.java",
+            "sha": "7c9cb6e69a501e3fe1f77a96e74d5d708706fb69",
+            "size": 7960
+          },
+          {
+            "path": "jctools-build/src/main/java/org/jctools/queues/atomic/JavaParsingAtomicLinkedQueueGenerator.java",
+            "sha": "c9a515beba23d3e1b22ab97b5e22cadfe2d7ddb1",
+            "size": 10268
+          },
+          {
+            "path": "jctools-build/src/main/java/org/jctools/queues/atomic/JavaParsingAtomicQueueGenerator.java",
+            "sha": "ced3961eeb5511203a549eaa2745d5f7c2702452",
+            "size": 14667
+          },
+          {
+            "path": "jctools-build/src/main/java/org/jctools/queues/atomic/TraceVisitor.java",
+            "sha": "e64cf748f086827b35a7f09faef638c7bd892e0f",
+            "size": 21922
+          },
+          {
+            "path": "jctools-build/src/main/java/org/jctools/queues/atomic/unpadded/JavaParsingAtomicUnpaddedArrayQueueGenerator.java",
+            "sha": "64a3b07aee1f5805b38716f92e97d0376bb9fe7a",
+            "size": 1795
+          },
+          {
+            "path": "jctools-build/src/main/java/org/jctools/queues/atomic/unpadded/JavaParsingAtomicUnpaddedLinkedQueueGenerator.java",
+            "sha": "3e8b8344ee3ed9764f898054dc5975dc7dc3a36a",
+            "size": 1649
+          },
+          {
+            "path": "jctools-build/src/main/java/org/jctools/queues/unpadded/JavaParsingUnpaddedQueueGenerator.java",
+            "sha": "611d3b7ac0ae4873e0e5d17818a9cfa41335cea9",
+            "size": 4717
+          },
+          {
+            "path": "jctools-build/src/main/java/org/jctools/queues/util/GeneratorUtils.java",
+            "sha": "f38c0fc95dce8979ddd2933a5412ac65c5ffacee",
+            "size": 3244
+          },
+          {
+            "path": "jctools-build/src/main/java/org/jctools/queues/util/JCToolsGenerator.java",
+            "sha": "3c90d0ab06d0b4716f6e9495f1e7bd66c1c0a9c9",
+            "size": 309
+          },
+          {
+            "path": "jctools-channels/src/main/java/org/jctools/channels/mapping/ClassViewModel.java",
+            "sha": "cb09afbc6ce9ff51a43c6cf6597c86658cb0faef",
+            "size": 2691
+          },
+          {
+            "path": "jctools-channels/src/main/java/org/jctools/channels/mapping/InvalidInterfaceException.java",
+            "sha": "21595b48b7a2997654cb6e8b29bc036beda85934",
+            "size": 900
+          },
+          {
+            "path": "jctools-channels/src/main/java/org/jctools/channels/mapping/Mapper.java",
+            "sha": "5d6b603d28bef51f9a4246123da11334fdf3e3eb",
+            "size": 4567
+          },
+          {
+            "path": "jctools-channels/src/main/java/org/jctools/channels/mapping/Primitive.java",
+            "sha": "0c20bb7a6fc8ec03bb06630d1fdec01f65bf55b8",
+            "size": 2663
+          },
+          {
+            "path": "jctools-channels/src/main/java/org/jctools/channels/mapping/TypeInspector.java",
+            "sha": "d0398f8f6832d8368301b62915df2c9d622127ec",
+            "size": 4431
+          },
+          {
+            "path": "jctools-channels/src/main/java/org/jctools/channels/mapping/Variable.java",
+            "sha": "5bf1ad329b447c3554e7c9c0b2d5e6a7b393f4e1",
+            "size": 456
+          },
+          {
+            "path": "jctools-channels/src/test/java/org/jctools/channels/mapping/InvalidInterfaceTest.java",
+            "sha": "cf317cfae9b3b62979ac06163885cc5789361946",
+            "size": 1787
+          },
+          {
+            "path": "jctools-channels/src/test/java/org/jctools/channels/mapping/MapperTest.java",
+            "sha": "0ea3820bc8ec5e4e802f153a47b22aa2b33ccaef",
+            "size": 2679
+          },
+          {
+            "path": "jctools-channels/src/test/java/org/jctools/channels/mapping/StubFlyweight.java",
+            "sha": "c5989bd54c6bdd6ce42c0a69a32c397967f2c707",
+            "size": 837
+          },
+          {
+            "path": "jctools-channels/src/test/resources/org/jctools/channels/mapping/StubTemplate.java",
+            "sha": "b0fac0b65c71d43926c80f6805f2c6afa39a78ba",
+            "size": 738
+          },
+          {
+            "path": "jctools-concurrency-test/src/main/java/org/jctools/queues/SpscArrayQueueConsumerTest.java",
+            "sha": "1c5fb26889e939d28f49620616f038a737a4f1bb",
+            "size": 976
+          },
+          {
+            "path": "jctools-concurrency-test/src/main/java/org/jctools/queues/SpscArrayQueueProducerConsumerTest.java",
+            "sha": "e72f27df2c01e793418e7941ff274bb3dfe39c4b",
+            "size": 999
+          },
+          {
+            "path": "jctools-concurrency-test/src/main/java/org/jctools/queues/SpscArrayQueueProducerTest.java",
+            "sha": "13e03a5b3b6e447e20ff713071c29b3d1e54fa19",
+            "size": 1173
+          },
+          {
+            "path": "jctools-concurrency-test/src/main/java/org/jctools/sets/SingleWriterHashSetDuplicateReadsTest.java",
+            "sha": "ed49404dde667e5cb1c8ddbfd2a78ca22da37b88",
+            "size": 1316
+          },
+          {
+            "path": "jctools-concurrency-test/src/main/java/org/jctools/sets/SingleWriterHashSetRemovalTest.java",
+            "sha": "97c278fcf6bcaeb8943a326c31b4f21333eea167",
+            "size": 1053
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/maps/AbstractEntry.java",
+            "sha": "b1cff8d372650966aaf21fdd9974308ff2bac670",
+            "size": 2101
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/maps/ConcurrentAutoTable.java",
+            "sha": "93a574ba7f902d5e93ec3eb4526e2f570172a7ed",
+            "size": 8762
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/maps/NonBlockingHashMap.java",
+            "sha": "8e9187d2e01864ad298a324fc7ebe1f47624a9d1",
+            "size": 73475
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/maps/NonBlockingHashMapLong.java",
+            "sha": "db9ade4788a14ddc55c570bee38a6d736e52645c",
+            "size": 65329
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/maps/NonBlockingHashSet.java",
+            "sha": "2d75a0f3b1a0973e8f1d248bcb75c559fad6016c",
+            "size": 2392
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/maps/NonBlockingIdentityHashMap.java",
+            "sha": "2f684c3c6ba5e5269ea28632b1fcc0f7e9d82797",
+            "size": 65489
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/maps/NonBlockingSetInt.java",
+            "sha": "2924a49f67369d6d94e4734a23e8b2d2fe733fe3",
+            "size": 19677
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/maps/package-info.java",
+            "sha": "a81c6b439a0960414853734d8b43ef161936e60f",
+            "size": 635
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/BaseLinkedQueue.java",
+            "sha": "aa187c5a666d24eacce6ea3f79d2f0b2e9c06ca8",
+            "size": 13893
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/BaseMpscLinkedArrayQueue.java",
+            "sha": "26ea831ed242e0b101044e57678a5cda82dce0eb",
+            "size": 25791
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/BaseSpscLinkedArrayQueue.java",
+            "sha": "8f65b52210bbec130c4542df270aed58e346233c",
+            "size": 12854
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/ConcurrentCircularArrayQueue.java",
+            "sha": "54aa06f42db658b0180c5484569f0302610cbd8d",
+            "size": 5244
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/ConcurrentSequencedCircularArrayQueue.java",
+            "sha": "5eaafcaa1a58bf86d602c08b32593bb4f6e53337",
+            "size": 1264
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/IndexedQueueSizeUtil.java",
+            "sha": "5a209d055bb03ddccbb38e483f01db556fe528ed",
+            "size": 3741
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/LinkedArrayQueueUtil.java",
+            "sha": "06d425f69f3671ff5d3465f4915a98c10f18d455",
+            "size": 997
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/LinkedQueueNode.java",
+            "sha": "a0d3008876f92f06194d730538afea9b975966bd",
+            "size": 1741
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/MessagePassingQueue.java",
+            "sha": "5a3edf6c5d1b7ea2e7d667e9402c91f04419bc5f",
+            "size": 12224
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/MessagePassingQueueUtil.java",
+            "sha": "dfb5391d2aaef0edc7d61653662ecbb1069d1007",
+            "size": 3993
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/MpUnboundedXaddArrayQueue.java",
+            "sha": "fb514fe5045922b08b601620ed50ec9f66e5ae65",
+            "size": 15714
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/MpUnboundedXaddChunk.java",
+            "sha": "eb0411d866e3aac8134bf6650fcaabb626ade94a",
+            "size": 2240
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/MpmcArrayQueue.java",
+            "sha": "02562e14c85984c2270d84585d7611a831a0ba8f",
+            "size": 22616
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/MpmcUnboundedXaddArrayQueue.java",
+            "sha": "eabd2d2f41d3157905abe2cb43915755e5278d9f",
+            "size": 16401
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/MpmcUnboundedXaddChunk.java",
+            "sha": "8ed0d8fc24313db8b12b6d53e92e9feb7e4fd378",
+            "size": 1883
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/MpscArrayQueue.java",
+            "sha": "d3389914747de6b5e6d1aa9395f9256c27405b2e",
+            "size": 19446
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/MpscBlockingConsumerArrayQueue.java",
+            "sha": "e3799fd3c5a379995c4472f79e6b28bdc6b9e21a",
+            "size": 27702
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/MpscChunkedArrayQueue.java",
+            "sha": "bfbfb8f353b04ff4038939c885de5686c8f4a528",
+            "size": 3901
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/MpscCompoundQueue.java",
+            "sha": "b34b5a35cfb6ef33ffe2aae779599359a68b280d",
+            "size": 11540
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/MpscGrowableArrayQueue.java",
+            "sha": "14c1825c6c4dd33488e1a70c44eac311e9a219a3",
+            "size": 2370
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/MpscLinkedQueue.java",
+            "sha": "a12957b8fa2efcab22895335d0f2f86bbca35166",
+            "size": 7341
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/MpscUnboundedArrayQueue.java",
+            "sha": "99dd4e79e362654fbb01a1348f83607670e69ebb",
+            "size": 2690
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/MpscUnboundedXaddArrayQueue.java",
+            "sha": "9a6d80cebded977f0e2c826d4599067555cadf50",
+            "size": 10514
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/MpscUnboundedXaddChunk.java",
+            "sha": "aff9ee45ae5ea56c85422cc7343afc2f8ffabb0a",
+            "size": 905
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/QueueProgressIndicators.java",
+            "sha": "f8196b8da33b032976a1f40a465278a04866889b",
+            "size": 1778
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/SpmcArrayQueue.java",
+            "sha": "ef8b23d9884df96224d60f3594863c76d049cd3c",
+            "size": 15390
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/SpscArrayQueue.java",
+            "sha": "a21eb110dafeba486bf94270f66b622685ae99bf",
+            "size": 15206
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/SpscChunkedArrayQueue.java",
+            "sha": "50a902d309a88547e61e6cda4eb2b98b9f37840e",
+            "size": 4363
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/SpscGrowableArrayQueue.java",
+            "sha": "6b34340603aa5f8c1305a25939239be3a799e9fb",
+            "size": 7064
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/SpscLinkedQueue.java",
+            "sha": "ac8a925d171b554ed5b141ce6bf12a7b194d91c4",
+            "size": 3932
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/SpscUnboundedArrayQueue.java",
+            "sha": "d34f2881c4d2421693ed53f8f647dcced4d78906",
+            "size": 3028
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/SupportsIterator.java",
+            "sha": "4da8771ad157b4035f461eba3f8e666a5eb2cc9e",
+            "size": 721
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/AtomicQueueUtil.java",
+            "sha": "969b06b70ea228dfdef55700c82609a5ba3012f7",
+            "size": 2667
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/AtomicReferenceArrayQueue.java",
+            "sha": "05bf6fd52c2d67026169b310a41935b84ae1cd05",
+            "size": 4596
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/BaseLinkedAtomicQueue.java",
+            "sha": "a8cf18c932d936c8b48966f50bebdf245a2d07eb",
+            "size": 16253
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/BaseMpscLinkedAtomicArrayQueue.java",
+            "sha": "6000645fec57c2c0f7a5f4be1665fd6df306c5fd",
+            "size": 28045
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/BaseSpscLinkedAtomicArrayQueue.java",
+            "sha": "ac921c91fb0a16d8b7213b684d8126a1e17b1b24",
+            "size": 14905
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/LinkedQueueAtomicNode.java",
+            "sha": "e84378eb28627044a97aeab459a6058598931c4e",
+            "size": 1643
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/MpmcAtomicArrayQueue.java",
+            "sha": "d9d57a4c554bde68d16e8c0f28c5c38e12e511c3",
+            "size": 24191
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/MpscAtomicArrayQueue.java",
+            "sha": "ecaf089c6a88519b947364a02efd60ff986e5041",
+            "size": 22030
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/MpscChunkedAtomicArrayQueue.java",
+            "sha": "a34da798bd3231cd1e519af23edf90f8f60a5027",
+            "size": 4654
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/MpscGrowableAtomicArrayQueue.java",
+            "sha": "377f6ee588038ba3d636b48c550a72a52e2417a1",
+            "size": 2689
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/MpscLinkedAtomicQueue.java",
+            "sha": "1ac12f3bca7906d8be3dec4aee159a7589c58597",
+            "size": 7017
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/MpscUnboundedAtomicArrayQueue.java",
+            "sha": "a6b920384674d3781e894f62e78dbf533c4320ac",
+            "size": 3205
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/SequencedAtomicReferenceArrayQueue.java",
+            "sha": "eb0ccfed9eb6ae24d060f9bbc393cdfd0a00a4c4",
+            "size": 1711
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/SpmcAtomicArrayQueue.java",
+            "sha": "098e94e7df8b51c0675474194aca59d11e1999e3",
+            "size": 17815
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/SpscAtomicArrayQueue.java",
+            "sha": "b4bb5ecfe0ced944f644dd492b467e0d7b433595",
+            "size": 17279
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/SpscChunkedAtomicArrayQueue.java",
+            "sha": "cbac5827c3cf9111af73c8b3b773fb5ce3cce5ce",
+            "size": 4685
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/SpscGrowableAtomicArrayQueue.java",
+            "sha": "b29b3ba377ad6f08512c358097fa9746c68e64ee",
+            "size": 7168
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/SpscLinkedAtomicQueue.java",
+            "sha": "2bd1081c1a50cfbfd3c9cbc726400f0bde43c805",
+            "size": 4313
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/SpscUnboundedAtomicArrayQueue.java",
+            "sha": "3d682011e5278418e13c897d9000782afcb7f157",
+            "size": 3380
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/package-info.java",
+            "sha": "e28565ffcaa963dbdb373a09547b53f54e14a15e",
+            "size": 644
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/BaseLinkedAtomicUnpaddedQueue.java",
+            "sha": "8dc4abe79d5d04d4a224c8077fd98941bdfb30ec",
+            "size": 13173
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/BaseMpscLinkedAtomicUnpaddedArrayQueue.java",
+            "sha": "d28b11aee1179821fb081eb7846f8a53de1f4b47",
+            "size": 25085
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/BaseSpscLinkedAtomicUnpaddedArrayQueue.java",
+            "sha": "7f30e4b6e382f88f818bbae5c867dcaf769ae412",
+            "size": 12993
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/MpmcAtomicUnpaddedArrayQueue.java",
+            "sha": "c62f58957a6663ed86b1bcb97318aacb4ce9ef99",
+            "size": 21289
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/MpscAtomicUnpaddedArrayQueue.java",
+            "sha": "999470075558b1b9c7720a33ece60bdde967d6fe",
+            "size": 18130
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/MpscChunkedAtomicUnpaddedArrayQueue.java",
+            "sha": "c22d657ed2ce123f72823caa47516cb85a420bc1",
+            "size": 3702
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/MpscGrowableAtomicUnpaddedArrayQueue.java",
+            "sha": "e7093874ce5a83dff9c31f52ab95c7b2b718599d",
+            "size": 2803
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/MpscLinkedAtomicUnpaddedQueue.java",
+            "sha": "4f86d17e10dd289c4bdbc0fdc2b2b3844796bdfc",
+            "size": 7123
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/MpscUnboundedAtomicUnpaddedArrayQueue.java",
+            "sha": "94a39d079928dcc4e3c2aa0b20d91eb8af18efe6",
+            "size": 2204
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/SpmcAtomicUnpaddedArrayQueue.java",
+            "sha": "5d690f7b590d39f1287bd7d38d91d7be7316e2b9",
+            "size": 13877
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/SpscAtomicUnpaddedArrayQueue.java",
+            "sha": "dfc49189d5f4e178894e4edae4ca7ff85d61ef71",
+            "size": 14407
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/SpscChunkedAtomicUnpaddedArrayQueue.java",
+            "sha": "6467bc9690c3dd24f333397ed92920fdfed24ad8",
+            "size": 4799
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/SpscGrowableAtomicUnpaddedArrayQueue.java",
+            "sha": "b08a0d456e95e0c8ee84af63c9ddbc22c14466f9",
+            "size": 7282
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/SpscLinkedAtomicUnpaddedQueue.java",
+            "sha": "db1c586ae440fb64d066acfe3d5c6be2877b6ecf",
+            "size": 4419
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/SpscUnboundedAtomicUnpaddedArrayQueue.java",
+            "sha": "a47fb1240acda5420d809a595a6b25a55788cb14",
+            "size": 3486
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/atomic/unpadded/package-info.java",
+            "sha": "01a04cbf069fe26d025f6b9b60ece848854e5b32",
+            "size": 654
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/package-info.java",
+            "sha": "32f462cad73915f07bf84a2de53d5df00de77537",
+            "size": 5650
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/BaseLinkedUnpaddedQueue.java",
+            "sha": "8456efd3524bb81c647be120e086cb63edd2dff5",
+            "size": 12326
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/BaseMpscLinkedUnpaddedArrayQueue.java",
+            "sha": "66ff539edbc9afc9f479d7119a2a247eb17fe219",
+            "size": 24077
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/BaseSpscLinkedUnpaddedArrayQueue.java",
+            "sha": "173a33db01d3eaea44b3df8aa521c0113198b7c6",
+            "size": 12404
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/ConcurrentCircularUnpaddedArrayQueue.java",
+            "sha": "35d3bd1ec0667e89028c9f593f8437c56bbb0a02",
+            "size": 4837
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/ConcurrentSequencedCircularUnpaddedArrayQueue.java",
+            "sha": "7de58ddaefea93be5745e14cc530d41ebbd4a26b",
+            "size": 1556
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/MpmcUnpaddedArrayQueue.java",
+            "sha": "7d54dbbc7fec6fd09c6679440135fcd8ffa6eb62",
+            "size": 20763
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/MpscChunkedUnpaddedArrayQueue.java",
+            "sha": "351dc85dd7b4180dc29cd2c105fd53ed08b8bef1",
+            "size": 3504
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/MpscGrowableUnpaddedArrayQueue.java",
+            "sha": "f8ac608a40fec7c502463a0745e202ab05816993",
+            "size": 2642
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/MpscLinkedUnpaddedQueue.java",
+            "sha": "1dbb816830dcd4ca96b61167ca1e4bc856603c3c",
+            "size": 7423
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/MpscUnboundedUnpaddedArrayQueue.java",
+            "sha": "39047556879e6bee1250ee596f9254090ff85ad9",
+            "size": 2049
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/MpscUnpaddedArrayQueue.java",
+            "sha": "a12903cf222d7a0939de70f78ef7662584d9fea8",
+            "size": 17285
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/SpmcUnpaddedArrayQueue.java",
+            "sha": "cd045b3cdc7c1f9b4bd82f9e6502f334e677826b",
+            "size": 13271
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/SpscChunkedUnpaddedArrayQueue.java",
+            "sha": "1793d7ae194fdfce14e0e0b878425dc244e9459b",
+            "size": 4592
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/SpscGrowableUnpaddedArrayQueue.java",
+            "sha": "ef2a78269268e9d89a308abd0c984dabfcce1e6d",
+            "size": 7139
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/SpscLinkedUnpaddedQueue.java",
+            "sha": "e757531c4c56ea6c971ccde24387d4d8b14add15",
+            "size": 4180
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/SpscUnboundedUnpaddedArrayQueue.java",
+            "sha": "a66d635fc62f757b4511bc5464f9b01b2465a1af",
+            "size": 3285
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/SpscUnpaddedArrayQueue.java",
+            "sha": "83fdb8b99f2f94d27d38fde167fb193c568b6293",
+            "size": 13894
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/queues/unpadded/package-info.java",
+            "sha": "b70709dd431cc57e5efd8d2656a667577fa79f8d",
+            "size": 646
+          },
+          {
+            "path": "jctools-core/src/main/java/org/jctools/util/PaddedAtomicLong.java",
+            "sha": "e5c5fd56f936996904aab65547216142f1a79901",
+            "size": 12347
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/maps/KeyAtomicityTest.java",
+            "sha": "f0186318f603d95a3542d6638528538af9acbbad",
+            "size": 3096
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/maps/NBHMIdentityKeyAtomicityTest.java",
+            "sha": "9e1a035d0ed849a39490ffea9d2a3cf96d36a9eb",
+            "size": 3116
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/maps/NBHMLongKeyAtomicityTest.java",
+            "sha": "5a4c005128f3743bc50499363116bd977320d854",
+            "size": 3120
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/maps/NBHMRemoveTest.java",
+            "sha": "d0fb0a6286539c59fa86a21d6e44302bb3d05ac3",
+            "size": 8505
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/maps/NBHMReplaceTest.java",
+            "sha": "0d744199d0f8acb4d445f8c5b7fd4181a982f6cd",
+            "size": 568
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/maps/NonBlockingHashMapGuavaTestSuite.java",
+            "sha": "3262a7e86b9b9bb82c1edeb568aa404e828408f0",
+            "size": 4609
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/maps/linearizability_test/LincheckMapTest.java",
+            "sha": "add62e70774fb358315672070c09931109201ce9",
+            "size": 3664
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/maps/linearizability_test/LincheckSetTest.java",
+            "sha": "763e571bff477d26e5d1232f3388a9e075280190",
+            "size": 3036
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/maps/linearizability_test/NonBlockingHashMapLinearizabilityTest.java",
+            "sha": "99ecbc1fb15128cb0d164925618e28c04f219570",
+            "size": 278
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/maps/linearizability_test/NonBlockingHashMapLongLinearizabilityTest.java",
+            "sha": "ff482d6542f2462dd29ce9532e5815a0b372dd13",
+            "size": 294
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/maps/linearizability_test/NonBlockingHashSetLinearizabilityTest.java",
+            "sha": "b60264aaca74e203b22dc57221bf194e1ae1e204",
+            "size": 278
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/maps/linearizability_test/NonBlockingIdentityHashMapLinearizabilityTest.java",
+            "sha": "4561d2656c76a85bb636241e2d1abe7e2829206c",
+            "size": 547
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/maps/linearizability_test/NonBlockingSetIntLinearizabilityTest.java",
+            "sha": "9a7197d3d4bad4b26d168ff74dca21048d07ec0a",
+            "size": 272
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/maps/nbhm_test/NBHMID_Tester2.java",
+            "sha": "02d01a483b680ace25bbd302f14f980cc7d2633d",
+            "size": 26005
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/maps/nbhm_test/NBHML_Tester2.java",
+            "sha": "657e0f735959de5e19b5421f804c7a58b80bb147",
+            "size": 23793
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/maps/nbhm_test/NBHM_Tester2.java",
+            "sha": "922d60fc7c0a957e050a16612df16ec86e86b91d",
+            "size": 26220
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/maps/nbhs_test/nbhs_tester.java",
+            "sha": "08a4654f8bd2a45cfc5824810f7dbc466f7ec144",
+            "size": 4705
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/maps/nbhs_test/nbsi_tester.java",
+            "sha": "2f5a3caf6325fc27e6f5a7cc0d6bb447c8919e6e",
+            "size": 6792
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTest.java",
+            "sha": "776e11422fb5a75fabf32973bcab8f85bdaac4f0",
+            "size": 28949
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestMpmcArray.java",
+            "sha": "25f249ef389c5b2a9ba90c6f974c6af063cb20dd",
+            "size": 1162
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestMpmcUnboundedXadd.java",
+            "sha": "bbe6b0979486d8b3f517b8cce2d74216e56bc072",
+            "size": 6849
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestMpscArray.java",
+            "sha": "e776ed300d4d24c6ff06c64071ffa54e36bbffc0",
+            "size": 1286
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestMpscBlockingConsumer.java",
+            "sha": "d4c70a3e5106f0b7663ae4bc10dde953f59d8597",
+            "size": 2850
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestMpscBlockingConsumerExtended.java",
+            "sha": "6a994023789862c3fb675a8c7c2b26ba902d728d",
+            "size": 2478
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestMpscChunked.java",
+            "sha": "4009d5e39e9b2c40b299b577500d9e87802923c2",
+            "size": 1787
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestMpscCompound.java",
+            "sha": "c425fadf1c3d0179458ae53c2c8eb37a2a5c8900",
+            "size": 962
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestMpscGrowable.java",
+            "sha": "425e884afdcca4fd2c1e4a770ed290fdb2ffae1f",
+            "size": 1853
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestMpscLinked.java",
+            "sha": "111eddbbead6eef6a7e9791e06a6d1a53e35b8bb",
+            "size": 997
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestMpscUnbounded.java",
+            "sha": "54600fe2c4dcc0719257d152c8cca76165814d29",
+            "size": 1698
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestMpscUnboundedXadd.java",
+            "sha": "9b52c6d91ab8e2bfc41739f63d56d700f965570f",
+            "size": 1494
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestSpmcArray.java",
+            "sha": "28265e098ce69764210ec69203120582d4854e2e",
+            "size": 1286
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestSpscArray.java",
+            "sha": "33311efcd0d9556293a698d9f52bb127e648164f",
+            "size": 1286
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestSpscChunked.java",
+            "sha": "907679ed8e2b26a7c33c440edfcdb86d4757089c",
+            "size": 2117
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestSpscGrowable.java",
+            "sha": "24a87cc852155146dc10d1ac30a795b4dc0b3d9d",
+            "size": 1738
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestSpscLinked.java",
+            "sha": "01ef7bd34a050ffea9a611d5cdd3065deae8d098",
+            "size": 997
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/MpqSanityTestSpscUnbounded.java",
+            "sha": "1c75695d5946904a93de6ffe2ac4e5b833c7c691",
+            "size": 1699
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/MpscArrayQueueSnapshotTest.java",
+            "sha": "d404fd1bea29694dc6ddcbc66d3a8a5a2922c83d",
+            "size": 2620
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/MpscUnboundedArrayQueueSnapshotTest.java",
+            "sha": "c0024048caea61ced523c33c47af4a45037a7997",
+            "size": 3901
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTest.java",
+            "sha": "f2adce98add3c664e3891b8680ea5fc32800f0ed",
+            "size": 23648
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpmcArray.java",
+            "sha": "0881783292324536913551054b4c98f8c2018234",
+            "size": 2833
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpmcUnboundedXadd.java",
+            "sha": "7a3071abbd850767da8ec1e75be0a82512f1c4ac",
+            "size": 1700
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscArray.java",
+            "sha": "1c923258feec5c445b3cd4896ff5b2c1fa2f6af3",
+            "size": 3033
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscArrayExtended.java",
+            "sha": "69ebeb01cdccdc290244eaceb7b154d359e3a24f",
+            "size": 2570
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscBlockingConsumer.java",
+            "sha": "bfd69f5f3e4e095da9d67450e2bbaa38bdfdc9d7",
+            "size": 939
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscBlockingConsumerArrayExtended.java",
+            "sha": "e7427e24b857d4eb36c893d53ef961e8e619a35f",
+            "size": 15909
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscBlockingConsumerOfferBelowThreshold.java",
+            "sha": "d29d709ebabe3b217fafae6e0cdcfddc43212615",
+            "size": 2024
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscChunked.java",
+            "sha": "edc4b48a4d71eae7a49ca3e70667cdb8a08823a1",
+            "size": 2381
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscChunkedExtended.java",
+            "sha": "f882634e85aaafdd6cf13edea72b106457ae77e2",
+            "size": 350
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscCompound.java",
+            "sha": "4c3b037b301d34294bfa370ed2b57c5eb45ed978",
+            "size": 947
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscGrowable.java",
+            "sha": "bccff5fcee01f5ea6d9ca252e2d451e9705fd4b7",
+            "size": 961
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscLinked.java",
+            "sha": "61b10c67905d58b0d779715a67f455518c08d3ba",
+            "size": 945
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscOfferBelowThreshold.java",
+            "sha": "8f791e15a5e6ef0d25dd0b8da00ad2021a551bf0",
+            "size": 1880
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscUnboundedArray.java",
+            "sha": "892ceb67fa7c00e8c013a72b9168fdb9da0154ec",
+            "size": 1848
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestMpscUnboundedXadd.java",
+            "sha": "4b394b51a3a66eb6bbb252a6cfc674d0633302ff",
+            "size": 1509
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestSpmcArray.java",
+            "sha": "c34d4394ebf278e6b27d5fad74808e1c612dfce1",
+            "size": 1225
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestSpscArray.java",
+            "sha": "404d92d8c2ec4f0d713d8ae3f7e446e931f39fa8",
+            "size": 1178
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestSpscArrayExtended.java",
+            "sha": "91b23213ab179e9bb7ae95baaeeee9bd65cb9010",
+            "size": 1401
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestSpscChunked.java",
+            "sha": "9976e8105e8ca282f80f90b5fad95f0562b4a136",
+            "size": 1864
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestSpscChunkedExtended.java",
+            "sha": "37dac858290e567f035b6ca6a43c5ba9d08bf9e3",
+            "size": 351
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestSpscGrowable.java",
+            "sha": "ea362292e84c6aa05575b88e37b2529972db7f25",
+            "size": 2673
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestSpscGrowableExtended.java",
+            "sha": "08dffcea2e00d4f1f94534d65bd27da66d805dfd",
+            "size": 1002
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestSpscLinked.java",
+            "sha": "54b8f46c62f048d76fb28637c725fffd0220d29d",
+            "size": 945
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/QueueSanityTestSpscUnbounded.java",
+            "sha": "169e6434a9e06ae62180113b7b61d6f69e4c9c6d",
+            "size": 1716
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/ScQueueRemoveTest.java",
+            "sha": "52709e88935f7154e1a74c9b745b3cf70290ecd2",
+            "size": 4912
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/ScQueueRemoveTestMpscLinked.java",
+            "sha": "6046b4890ab5255ba352bb535d9d6fadf3b01231",
+            "size": 225
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/atomic/MpscAtomicArrayQueueOfferWithThresholdTest.java",
+            "sha": "cdafda1dea35bb138bac3c57cc4b2a1c071f12d3",
+            "size": 1185
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/atomic/MpscLinkedAtomicQueueRemoveTest.java",
+            "sha": "89e74f828ce6e20ad411b7eea1eb6c6fd4f63e2a",
+            "size": 290
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/atomic/SpscAtomicArrayQueueTest.java",
+            "sha": "600d7351616c6271dcee0e5682f898ac014ee2d3",
+            "size": 1970
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/matchers/Matchers.java",
+            "sha": "84780ab42577d708ea7b410d889a843248dd23d2",
+            "size": 379
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/spec/ConcurrentQueueSpec.java",
+            "sha": "457c77435663554fd1a281a560abf4c4b0a86b45",
+            "size": 2734
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/spec/Ordering.java",
+            "sha": "9331081af8a9907aa14738ddba6d8f44f620cb48",
+            "size": 685
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/queues/spec/Preference.java",
+            "sha": "1413515283049593cf5aabe454f228ed85c9d57b",
+            "size": 680
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/util/AtomicQueueFactory.java",
+            "sha": "cbf074ee0e2ea85b5fbdea66e051d4f68390c21b",
+            "size": 2163
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/util/PaddedAtomicLongTest.java",
+            "sha": "c060e7cfd7a2baaf8e4ad368fbe93b1051a65fe6",
+            "size": 5349
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/util/QueueFactory.java",
+            "sha": "2565d1239138e5aebe100b958e0ecfaa3fb12c58",
+            "size": 2367
+          },
+          {
+            "path": "jctools-core/src/test/java/org/jctools/util/UnpaddedQueueFactory.java",
+            "sha": "55220026249fad7cdb58c6330dda245478130d2a",
+            "size": 3351
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/BQueue.java",
+            "sha": "3b9cc23b7718768ff4cc5b413bbd6d32289b4426",
+            "size": 8827
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/FFBuffer.java",
+            "sha": "9aadc27c1a8cab2815fd87e6f7a11f249e8958a2",
+            "size": 7513
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/FloatingCountersSpscConcurrentArrayQueue.java",
+            "sha": "6557e8813a081d6a7a77fdca2739ce86d140760e",
+            "size": 8057
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/InlinedCountersSpscConcurrentArrayQueue.java",
+            "sha": "388aee1e6f636bdd1afc90b5ac0613b70005597e",
+            "size": 10972
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/MpmcConcurrentQueueStateMarkers.java",
+            "sha": "16e5789be0026d59ebfee3db29e74a5179b217e5",
+            "size": 13750
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/MpscLinkedArrayQueue.java",
+            "sha": "0b0d0c235b9adb9a17b55188e770ddc38ebfc886",
+            "size": 6994
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/MpscOnSpscQueue.java",
+            "sha": "e0eb46c6c270c1fab6f5437bbb927775ef2a6e7e",
+            "size": 5513
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/MpscRelaxedArrayQueue.java",
+            "sha": "960d2dc2b2e23dfb0d700666cbe913573e8227ab",
+            "size": 34286
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/MpscSequencedArrayQueue.java",
+            "sha": "004073302d4ba170dd99b188ed2b07a7940d6630",
+            "size": 10348
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/SpscOffHeapIntQueue.java",
+            "sha": "2ee4768645641c192212abd3a236d2e4fc2e018c",
+            "size": 6483
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/alt/ConcurrentCircularArray.java",
+            "sha": "cf86bb2c069980153d1246e0e908af1d78e54049",
+            "size": 4172
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/alt/ConcurrentQueue.java",
+            "sha": "9d2db2d2b0f889a9b6c5ad138e113bf97c6d27c4",
+            "size": 1344
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/alt/ConcurrentQueueConsumer.java",
+            "sha": "275d043a1fd9d671a48a21fb4f3b9e0edb4f8a91",
+            "size": 2172
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/alt/ConcurrentQueueFactory.java",
+            "sha": "a4a76e991812b8ce990fe9cf3ee2e18b601de706",
+            "size": 2496
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/alt/ConcurrentQueueProducer.java",
+            "sha": "180b3e8993aadd3c6c499637bb30fafb2a896f49",
+            "size": 1022
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/alt/ConcurrentSequencedCircularArray.java",
+            "sha": "3dc9a929ed9374b40837c7cdfd9ffc6420931c5b",
+            "size": 2912
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/alt/ConsumerFunction.java",
+            "sha": "4eb9f4621e01e7d32f40aef8e98425be36d4e101",
+            "size": 138
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/alt/MpmcArrayConcurrentQueue.java",
+            "sha": "7f5fb02e56ed7fd4400d833b6b73a4fece76f9da",
+            "size": 18822
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/alt/MpscArrayConcurrentQueue.java",
+            "sha": "ee5a5ab2ff013e6b16ff9d48fd176eada887d5fb",
+            "size": 17749
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/alt/ProducerFunction.java",
+            "sha": "9e0d9f21e30a6b1d6486506b0406496196abc978",
+            "size": 150
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/alt/SpscArrayConcurrentQueue.java",
+            "sha": "10e3e513c0eb80976cee536c887b033ab0757c91",
+            "size": 9278
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/atomic/MpscRelaxedAtomicArrayQueue.java",
+            "sha": "ec7f5faf1df329874404220fa67a69943011ff3e",
+            "size": 25919
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/blocking/BlockingQueueFactory.java",
+            "sha": "ceb7b4286698c399880ca54b642c3e618dda6d0f",
+            "size": 7007
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/blocking/McParkTakeStrategy.java",
+            "sha": "7844300894298bf59a074fb7166602f5d7f380e6",
+            "size": 1295
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/blocking/PutStrategy.java",
+            "sha": "9d65b2a2d723e12f75f62b6a38e20f8ed003a89b",
+            "size": 286
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/blocking/ScParkTakeStrategy.java",
+            "sha": "0b7c037c38003c8726c9771f836762244ba608b3",
+            "size": 1494
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/blocking/TakeStrategy.java",
+            "sha": "d9cbadd1ea5353f7613e2c18a257b494e47384ff",
+            "size": 278
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/blocking/YieldPutStrategy.java",
+            "sha": "a2de4c5e10bdb366adfb91c19bb33811fee0014a",
+            "size": 717
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/blocking/YieldTakeStrategy.java",
+            "sha": "efee2b4a903b600701718c8b1f4f92fe252d6c85",
+            "size": 573
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/intrusive/MpscIntrusiveLinkedQueue.java",
+            "sha": "5a02c755ad9a1ac448b183167e1edf6543198fb8",
+            "size": 7621
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/intrusive/Node.java",
+            "sha": "1ffdd9ee43f6ae013ef31c8cd2e6fdebb84322a4",
+            "size": 1154
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/queues/intrusive/NodeImpl.java",
+            "sha": "ae96aa6ed6e605403784237257c1d6faebf2c9eb",
+            "size": 902
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/sets/IdentityOpenHashSet.java",
+            "sha": "2670c5f087244caa0aefa4cc80b7327d5ea97316",
+            "size": 8211
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/sets/OpenHashSet.java",
+            "sha": "549761e9d7101cdb6fe8540058f80749db2cb1c2",
+            "size": 8294
+          },
+          {
+            "path": "jctools-experimental/src/main/java/org/jctools/sets/SingleWriterHashSet.java",
+            "sha": "6dbf1ce50811279e251adfa8ef10b3eec402e2c6",
+            "size": 10748
+          },
+          {
+            "path": "jctools-experimental/src/main/resources/org/jctools/queues/blocking/TemplateBlocking.java",
+            "sha": "dd217a26847959a0c0b4d13b75f373095c97fc8b",
+            "size": 2143
+          },
+          {
+            "path": "jctools-experimental/src/test/java/org/jctools/queues/MpqSanityTestMpscRelaxedArray.java",
+            "sha": "c7adb552bc3dc505691978d13a0a035c77f988b5",
+            "size": 1817
+          },
+          {
+            "path": "jctools-experimental/src/test/java/org/jctools/queues/QueueSanityTestMpscRelaxed.java",
+            "sha": "c6e302d23d7cdfc10caeeb4796b32d1b26a7d68d",
+            "size": 1788
+          },
+          {
+            "path": "jctools-experimental/src/test/java/org/jctools/queues/alt/ConcurrentQueueSanityTest.java",
+            "sha": "949fa0c78aa291f9a28b68781aae5ce78200f3d1",
+            "size": 5094
+          },
+          {
+            "path": "jctools-experimental/src/test/java/org/jctools/queues/atomic/AtomicQueueSanityTestMpscRelaxedArray.java",
+            "sha": "e3d5cd797398cb7025478ecfea93d95481ecde5d",
+            "size": 1899
+          },
+          {
+            "path": "jctools-experimental/src/test/java/org/jctools/queues/blocking/BasicBlockingQueueTest.java",
+            "sha": "4166c26ed29adeaefb26ca5452c6d9f387319103",
+            "size": 1060
+          },
+          {
+            "path": "jctools-experimental/src/test/java/org/jctools/queues/blocking/BlockingQueueTest.java",
+            "sha": "00d2e712e904d3ce15e9d77e477418808fa789a1",
+            "size": 5462
+          },
+          {
+            "path": "jctools-experimental/src/test/java/org/jctools/queues/intrusive/IntrusiveQueueSanityTest.java",
+            "sha": "c380e7c4de97fec1f06c532f818a17f40c0680c6",
+            "size": 8532
+          },
+          {
+            "path": "jctools-experimental/src/test/java/org/jctools/queues/intrusive/TestNode.java",
+            "sha": "3fce2b7d2040e54f6fb6e4cbc5967f6887975469",
+            "size": 659
+          },
+          {
+            "path": "jctools-experimental/src/test/java/org/jctools/sets/HashSetTest.java",
+            "sha": "cf5bf779ca2bc0edf945157df41ab2b32e7ef1f7",
+            "size": 2967
+          },
+          {
+            "path": "jctools-experimental/src/test/java/org/jctools/sets/SingleWriterHashSetTest.java",
+            "sha": "b7d53a514f4f648933fd0bff3ed148b906674af0",
+            "size": 1221
+          }
+        ],
+        "concurrent_file_count": 275
+      }
+    },
+    {
+      "name": "ConcurrencyFreaks",
+      "full_name": "pramalhe/ConcurrencyFreaks",
+      "owner": "pramalhe",
+      "description": null,
+      "language": "Java",
+      "stars": 437,
+      "forks": 54,
+      "size": 14259,
+      "clone_url": "https://github.com/pramalhe/ConcurrencyFreaks.git",
+      "ssh_url": "git@github.com:pramalhe/ConcurrencyFreaks.git",
+      "html_url": "https://github.com/pramalhe/ConcurrencyFreaks",
+      "created_at": "2013-04-29T09:47:27Z",
+      "updated_at": "2025-06-08T16:54:58Z",
+      "topics": [
+        "c-plus-plus",
+        "concurrency",
+        "java",
+        "lock-free",
+        "low-latency",
+        "wait-free"
+      ],
+      "license": "Other",
+      "default_branch": "master",
+      "structure_analysis": {
+        "total_files": 304,
+        "concurrent_files": [
+          {
+            "path": "C11/locks/clh_mutex.h",
+            "sha": "d68c89a5f1533594f547c00d9083f45444ba4678",
+            "size": 2379
+          },
+          {
+            "path": "C11/locks/mpsc_mutex.h",
+            "sha": "46cb5fde4b567e31bedcb8974c984483c874e1b6",
+            "size": 2439
+          },
+          {
+            "path": "C11/locks/ticket_mutex.h",
+            "sha": "3121087a236bfcc9a1d767244bced197c1ff2476",
+            "size": 2315
+          },
+          {
+            "path": "C11/locks/ticketawn/ticket_awnee_mutex.h",
+            "sha": "04550133d3f85b980f72acd4b4ea4ebd31e580f8",
+            "size": 2714
+          },
+          {
+            "path": "C11/locks/ticketawn/ticket_awnne_mutex.h",
+            "sha": "6ada0928e3b18aa84d7fd10bd534781be87216c3",
+            "size": 2754
+          },
+          {
+            "path": "C11/locks/ticketawn/ticket_awnsb_mutex.h",
+            "sha": "601cbdf8a22ceaad8f663140bf56faa926c2ec5e",
+            "size": 2739
+          },
+          {
+            "path": "C11/locks/tidex_mutex.h",
+            "sha": "e9cdd2193b7a0dffc1999257c2b582307aa7d9e5",
+            "size": 2517
+          },
+          {
+            "path": "C11/locks/tidex_nps_mutex.h",
+            "sha": "3b5de82c82de3643675a3746e29a73e08faa4919",
+            "size": 2486
+          },
+          {
+            "path": "C11/papers/tidex/ticket_mutex.h",
+            "sha": "be6ec3d81880cf83a95821112a39059557e923d4",
+            "size": 2324
+          },
+          {
+            "path": "C11/papers/tidex/tidex_mutex.h",
+            "sha": "bf416da30a795a22ef5421f52bb98f78df3ad83d",
+            "size": 2497
+          },
+          {
+            "path": "CPP/lists/LinkedListSet.h",
+            "sha": "2200091457ea221459a3b12c5a4ed474c613c101",
+            "size": 5433
+          },
+          {
+            "path": "CPP/papers/crturnqueue/include/BenchmarkLatencyQ.hpp",
+            "sha": "bfb3949076464bc88a963e24b33c12e2263fd799",
+            "size": 13271
+          },
+          {
+            "path": "CPP/papers/crturnqueue/include/BenchmarkQ.hpp",
+            "sha": "d959ffb0e790076e41eefd157d18eb1d5f88c87a",
+            "size": 16226
+          },
+          {
+            "path": "CPP/papers/crturnqueue/include/CRTurnQueue.hpp",
+            "sha": "289ac72b4fdef2e3d9ddb7bb0fb28bf27c116a00",
+            "size": 10480
+          },
+          {
+            "path": "CPP/papers/crturnqueue/include/HazardPointers.hpp",
+            "sha": "0b3b52841a4d1929a35873337aab2f21803d86ae",
+            "size": 5584
+          },
+          {
+            "path": "CPP/papers/crturnqueue/include/MichaelScottQueue.hpp",
+            "sha": "dfaa20e9bdae0c2ff4472c752dfd161ba7d713c2",
+            "size": 5600
+          },
+          {
+            "path": "CPP/papers/crturnqueue/src/benchmark.cpp",
+            "sha": "e56e95c72170ec249ae4e39be046ea280f3b1152",
+            "size": 1261
+          },
+          {
+            "path": "CPP/papers/crturnqueue/src/latency.cpp",
+            "sha": "d4a339e006d49e955d76e4df2380ce658ed3a44d",
+            "size": 247
+          },
+          {
+            "path": "CPP/papers/crturnqueue/src/stress.cpp",
+            "sha": "72986a56e3ab8b39dac73d21511644848bc2e450",
+            "size": 561
+          },
+          {
+            "path": "CPP/papers/gracesharingurcu/RIAtomicCounter.hpp",
+            "sha": "bfe84b97586e4df11d71864c9f78f549e03a8f37",
+            "size": 2805
+          },
+          {
+            "path": "CPP/papers/gracesharingurcu/RIAtomicCounterArray.hpp",
+            "sha": "efafe89f504a259c60b16bf28bb3203bfe284169",
+            "size": 3808
+          },
+          {
+            "path": "CPP/papers/gracesharingurcu/URCUGraceVersionSyncScale.hpp",
+            "sha": "8751aa088e9b9e096b5183f36faf8f11eb6e6782",
+            "size": 3893
+          },
+          {
+            "path": "CPP/pqueues/HazardPointers.hpp",
+            "sha": "512a0c9898d765c4d680029deee1c3a2f3e5025d",
+            "size": 6325
+          },
+          {
+            "path": "CPP/pqueues/MichaelScottQueue.hpp",
+            "sha": "e0937d374e1ebc533d03684a94f25e07dcfb6389",
+            "size": 5600
+          },
+          {
+            "path": "CPP/pqueues/PMichaelScottQueue.hpp",
+            "sha": "1113781446d7a6545ba6b0a9ec6ae299349a7e0b",
+            "size": 13009
+          },
+          {
+            "path": "CPP/pqueues/pfences.h",
+            "sha": "427e941a460b0e286d20f4bb102afc034bc8b24a",
+            "size": 5039
+          },
+          {
+            "path": "CPP/queues/BitNextLazyHeadQueue.hpp",
+            "sha": "f9ce0d8848a4af2c75a03d156ea3d0f1741908e6",
+            "size": 8660
+          },
+          {
+            "path": "CPP/queues/BitNextQueue.hpp",
+            "sha": "7ee1fd18f858ddf4275aeddc16e13e9bcd69204a",
+            "size": 8035
+          },
+          {
+            "path": "CPP/queues/CRDoubleLinkQueue.hpp",
+            "sha": "102d8af746e32a76d4c2e21ea8dfa7dcdeae1ea1",
+            "size": 5730
+          },
+          {
+            "path": "CPP/queues/CRTurnQueue.hpp",
+            "sha": "d24a22b44c9eb7567264914efbdcbb94e4939fe5",
+            "size": 10480
+          },
+          {
+            "path": "CPP/queues/HazardPointers.hpp",
+            "sha": "af72a0ea24fb6a3381ad55ab0b7df39609c7a482",
+            "size": 5711
+          },
+          {
+            "path": "CPP/queues/HazardPointersConditional.hpp",
+            "sha": "dc45b3dbd6841e43b9f5d283a57be8c25820c4a9",
+            "size": 5052
+          },
+          {
+            "path": "CPP/queues/HazardPointersDL.hpp",
+            "sha": "59534488e298c03021ac1f77dfd0c7530663a0b5",
+            "size": 4875
+          },
+          {
+            "path": "CPP/queues/KoganPetrankQueueCHP.hpp",
+            "sha": "b193fae1a168571524ba8d2995a3398f267b6481",
+            "size": 14678
+          },
+          {
+            "path": "CPP/queues/LCRQueue.hpp",
+            "sha": "e9e07c055a1cac0437dfe4ca49109edf61045116",
+            "size": 11610
+          },
+          {
+            "path": "CPP/queues/MichaelScottQueue.hpp",
+            "sha": "e0937d374e1ebc533d03684a94f25e07dcfb6389",
+            "size": 5600
+          },
+          {
+            "path": "CPP/queues/array/FAAArrayQueue.hpp",
+            "sha": "d0ebcc28620c59fd2a1fa6f070d55096dc707f58",
+            "size": 7651
+          },
+          {
+            "path": "CPP/queues/array/LazyIndexArrayQueue.hpp",
+            "sha": "770172b503e7ea6a0d3d7bfdac6f809fa92eb380",
+            "size": 8114
+          },
+          {
+            "path": "CPP/queues/array/LinearArrayQueue.hpp",
+            "sha": "6818145a8713909b9d8eb61b68430dfa7ee7bede",
+            "size": 7779
+          },
+          {
+            "path": "CPP/queues/array/Log2ArrayQueue.hpp",
+            "sha": "a8b5fb73ae4b811d9e57e46768e74b84a1e947e8",
+            "size": 9566
+          },
+          {
+            "path": "CPP/trees/COWLockMap.h",
+            "sha": "29f5fc090ce9632be3334aa6a88fe712bef51071",
+            "size": 4412
+          },
+          {
+            "path": "CPP/trees/LRClassicMap.h",
+            "sha": "d24190fb10d163db1add4e1e5a9b74a42a8dc67f",
+            "size": 5116
+          },
+          {
+            "path": "CPP/trees/RWLockPthreadMap.h",
+            "sha": "39c84a026c74f63d8c492ec63628cd944af99b47",
+            "size": 3478
+          },
+          {
+            "path": "CPP/trees/RWLockSharedMutexMap.h",
+            "sha": "3c96531cfd21ace96d6e9e49d97130ba83431a4a",
+            "size": 3065
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/cow/BenchmarkTreeSets.java",
+            "sha": "bd6bae4cf239b3543add3f40eb3c20a63070432b",
+            "size": 32474
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/cow/CopyOnWriteCASTreeSet.java",
+            "sha": "7ecaeb01323da527ff70176c7cdf3f5d1276e780",
+            "size": 3542
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/cow/CopyOnWriteLockTreeSet.java",
+            "sha": "4dd7a437fd78d45471a28b3c496a3b0a13696671",
+            "size": 3496
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/cow/CopyOnWriteMQLFTreeMap.java",
+            "sha": "5f14f7aa5527ee5f462f1bfaa1be4cf0ee67f73b",
+            "size": 3295
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/cow/CopyOnWriteMQLFTreeSet.java",
+            "sha": "03b03da2684ccae5cee6518d7f51e4e037b6d020",
+            "size": 3550
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/cow/CopyOnWriteMQWFTreeMap.java",
+            "sha": "58d653c1f57f39dd8eb5b0cc932e2a8f71ad6295",
+            "size": 11186
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/cow/CopyOnWriteMQWFTreeSet.java",
+            "sha": "ce6168778b4512c9154da9293646e88a2188b4cb",
+            "size": 3675
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/cow/ITreeSet.java",
+            "sha": "106d796c1c43ad8183e71730b18b0abb002bb92b",
+            "size": 259
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/experimental/LRTreeSetDCNV.java",
+            "sha": "f43307610e78f94b2f76ddb3e7f0809d7b6a75ac",
+            "size": 8765
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/experimental/LRTreeSetGT.java",
+            "sha": "6a324fe5be0e459aa6680f7b72281d32d3ef7871",
+            "size": 8778
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/experimental/LRTreeSetScalableGT.java",
+            "sha": "cecb4ea354ab30f6eccafda7092fbee86b78ae18",
+            "size": 11929
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/jdkext/AtomicIntegerArray.java",
+            "sha": "e665fd3774d366560e16ad2c4b6d50fe573e1ee3",
+            "size": 11244
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/list/ConcurrentLinkedQueueRelaxed.java",
+            "sha": "66e1ba1469d6d7d206fcd1037244a4dff016c3dd",
+            "size": 32246
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/locks/TidexMutex.java",
+            "sha": "acfde8abfc25864ada98abd7a4c0f633a1c95c64",
+            "size": 5731
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/papers/COWMutationQ/BenchmarkTreeSets.java",
+            "sha": "dab7d7983908700e9d71bcf35fc23a330c79d440",
+            "size": 29291
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/papers/COWMutationQ/CRWWPLockTreeSet.java",
+            "sha": "f91fe032a452a5f70b045d493108ad7b0787a354",
+            "size": 3479
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/papers/COWMutationQ/CopyOnWriteCASTreeSet.java",
+            "sha": "911980b0d72e0bde1e4d8c66dcf698574be21e71",
+            "size": 3558
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/papers/COWMutationQ/CopyOnWriteLockTreeSet.java",
+            "sha": "910e0321e9d70d61b8638aa95df6dbf1ad45a739",
+            "size": 3512
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/papers/COWMutationQ/CopyOnWriteMQLFTreeSet.java",
+            "sha": "0c7474760479e5e55d1a6593dd9e9766b768638e",
+            "size": 3564
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/papers/COWMutationQ/CopyOnWriteMQWFTreeSet.java",
+            "sha": "551e1e90c82cafdb09ae9c04190330bb07ff30ae",
+            "size": 3564
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/papers/COWMutationQ/ITreeSet.java",
+            "sha": "fb68f03d34bbc7eb3b7cdc96eab080d00e151a2b",
+            "size": 275
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/papers/COWMutationQ/LeftRightTreeSet.java",
+            "sha": "74f40a8e863cb46fa0baa1b9046bbba15241c667",
+            "size": 3473
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/papers/COWMutationQ/ReentrantLockTreeSet.java",
+            "sha": "774706c8a39be91595a2bac5eb330d1ab8dea32d",
+            "size": 3200
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/papers/COWMutationQ/StampedLockTreeSet.java",
+            "sha": "93afc4567b54199fc6c4cbc4155565ab36f75846",
+            "size": 3350
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/papers/LeftRight/BenchmarkTreeSetFullRebalance.java",
+            "sha": "5a7f9ab8aa2c08efd9904f11c583a04f55feb8ef",
+            "size": 20136
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/papers/LeftRight/BenchmarkTreeSetLatency.java",
+            "sha": "ee93998f589db5f522e70703e0431da941e1e575",
+            "size": 14596
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/papers/LeftRight/LRScalableTreeSet.java",
+            "sha": "6fd965875395b38ff587c08a616766dda558cb0a",
+            "size": 15388
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/papers/LeftRight/LRScalableTreeSetNV.java",
+            "sha": "428e84e3aa7c685ea9c7f729a10de57b661515e7",
+            "size": 11714
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/papers/LeftRight/LRScalableTreeSetRV.java",
+            "sha": "de583a23988dab15728f7230341e2808e744bedf",
+            "size": 12511
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/papers/LeftRight/ScalableRWLockTreeSet.java",
+            "sha": "b88b04b11c972239d93d992bcc84f477707bc6a3",
+            "size": 4941
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/queues/CRDoubleLinkQueue.java",
+            "sha": "4528f88fca76e033925b522011a89d20909da04f",
+            "size": 7670
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/queues/CRSimQueue.java",
+            "sha": "8b5e58e164ac948f9c9471f192179cc63a6b5d0c",
+            "size": 11692
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/queues/CRTurnQueue.java",
+            "sha": "fccc8f48964d6290803fcd0f36e3298215d0ef43",
+            "size": 10856
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/queues/EncapsulatorQueue.java",
+            "sha": "dc7402f77f77783a8a7a9d8a58cad173de18e562",
+            "size": 9463
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/queues/IQueue.java",
+            "sha": "66ca4687d0de8f962276afa306fa598ee949af13",
+            "size": 207
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/queues/KoganPetrankNoSLQueue.java",
+            "sha": "897e0ed14bf97eeaa20f886a043a84b4d2de3a44",
+            "size": 8825
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/queues/KoganPetrankQueue.java",
+            "sha": "0854e3b5f4b6b53321d365e07a97d7135229a545",
+            "size": 8895
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/queues/array/FAAArrayQueue.java",
+            "sha": "dababd71c366a18b1088a393c67601c434f34167",
+            "size": 8264
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/queues/array/LazyIndexArrayQueue.java",
+            "sha": "ac4b2e9267246d66b80eab7ad7ac979275ab7086",
+            "size": 8372
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/queues/array/LinearArrayQueue.java",
+            "sha": "d205740e2bcff1c5e383e219a4b30132096635f4",
+            "size": 8280
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/queues/array/Log2ArrayQueue.java",
+            "sha": "73dbe579410f49a123562a7774dc8150307e4e4d",
+            "size": 9677
+          },
+          {
+            "path": "Java/com/concurrencyfreaks/readindicators/RIAtomicCounter.java",
+            "sha": "a93291448d14445164cd33947d2b4cfe365b5f24",
+            "size": 2753
+          }
+        ],
+        "concurrent_file_count": 86
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "analysis_date": "2025-06-09",
+  "total_repositories": 4,
+  "total_functions": 2470,
+  "functions_with_tests": 57,
+  "test_coverage_percentage": 2.307692307692308,
+  "total_test_functions": 362,
+  "average_functions_per_repo": 617.5,
+  "average_tests_per_function": 0.1465587044534413,
+  "domain_distribution": {
+    "data_structures": 991,
+    "producer_consumer": 519,
+    "general": 394,
+    "atomic_operations": 245,
+    "synchronization": 222,
+    "memory_management": 53,
+    "thread_management": 31,
+    "utilities": 15
+  },
+  "complexity_distribution": {
+    "low": 1929,
+    "medium": 388,
+    "high": 106,
+    "very_high": 47
+  },
+  "method_type_distribution": {
+    "method": 2388,
+    "constructor": 82
+  },
+  "test_type_distribution": {
+    "unit": 362
+  },
+  "top_sync_primitives": {
+    "final": 1139,
+    "Lock": 385,
+    "lock": 385,
+    "static": 367,
+    "Thread": 199,
+    "volatile": 179,
+    "AtomicReference": 139,
+    "AtomicReferenceArray": 129,
+    "wait": 128,
+    "compareAndSet": 84
+  },
+  "concurrency_patterns": {
+    "thread_local_storage": 1462,
+    "immutable_object": 1140,
+    "future_pattern": 765,
+    "double_checked_locking": 599,
+    "singleton_pattern": 505,
+    "compare_and_swap": 398,
+    "producer_consumer": 271,
+    "lock_free_algorithm": 142,
+    "reader_writer_lock": 88,
+    "observer_pattern": 3
+  },
+  "repositories": {
+    "JCTools/JCTools": {
+      "total_functions": 1391,
+      "functions_with_tests": 42,
+      "test_coverage": 3.01941049604601
+    },
+    "pramalhe/ConcurrencyFreaks": {
+      "total_functions": 737,
+      "functions_with_tests": 0,
+      "test_coverage": 0.0
+    },
+    "RobAustin/low-latency-primitive-concurrent-queues": {
+      "total_functions": 105,
+      "functions_with_tests": 0,
+      "test_coverage": 0.0
+    },
+    "peptos/traffic-shm": {
+      "total_functions": 237,
+      "functions_with_tests": 15,
+      "test_coverage": 6.329113924050633
+    }
+  }
+}
