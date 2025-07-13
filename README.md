@@ -1,54 +1,83 @@
-Complete EvoCodeBench Pipeline - Step by Step
+ConcurBench: Benchmarking Code Generation for Concurrent Functions
+ConcurBench is a comprehensive benchmarking pipeline designed to evaluate the capabilities of Large Language Models (LLMs) on realistic concurrent programming tasks. It systematically extracts, annotates, and evaluates real-world concurrent functions from high-quality GitHub repositories using a modular, multi-phase pipeline.
 
-Phase 1: Repository Discovery & Collection ✅ 
+Project Overview
+Goal: To build a robust dataset and evaluation framework that tests LLMs on real-world concurrency tasks, simulating realistic developer scenarios with varying context levels.
 
-Gather high-quality repositories (50+ stars, active development)
-Analyze repository structure for concurrent files
-Filter by language, file types, and concurrency indicators
+Pipeline Overview
+Phase 1: Repository Discovery & Collection 
+Select high-quality repositories (e.g., 50+ stars, active development).
+
+Analyze repo structure to identify concurrent files.
+
+Filter by programming language, file types, and concurrency indicators (e.g., synchronized, mutex, Thread, etc.).
 
 Phase 2: Repository Cloning & Setup
+Clone the selected repositories locally.
 
-Clone selected repositories locally
-Organize repository structure
-Verify file accessibility
+Organize directory structure for easy access.
+
+Verify code and test file accessibility.
 
 Phase 3: Function Discovery & Extraction
+Parse source files to extract functions involving concurrency.
 
-Parse source code to extract concurrent functions
-Identify synchronization primitives and patterns
-Extract function signatures, dependencies, and complexity
+Detect synchronization patterns (e.g., locks, atomic variables).
+
+Extract function signatures, dependencies, and compute complexity metrics.
 
 Phase 4: Test Discovery & Verification
+Identify and match test cases corresponding to each function.
 
-Find corresponding test files for each function
-Match functions to their test cases
-Verify test coverage and quality
+Validate test presence, coverage, and relevance.
+
+Tag functions based on test quality (e.g., high-coverage, weak-assertion, etc.).
 
 Phase 5: Static Analysis & Filtering
+Apply static code analysis to compute:
 
-Filter functions based on quality criteria
-Calculate complexity scores
-Remove duplicates and low-quality functions
+Cyclomatic complexity
+
+Lines of code
+
+Dependency depth
+
+Filter out trivial, duplicate, or noisy functions.
 
 Phase 6: LLM Annotation Pipeline
+Generate high-quality NL (natural language) descriptions.
 
-Generate natural language requirements
-Create function descriptions
-Add domain labels and categorization
+Provide detailed problem statements, usage hints, and expected behavior.
+
+Annotate each function with domain tags (e.g., networking, data structures).
 
 Phase 7: Dataset Preparation
+Organize the final dataset with rich metadata:
 
-Structure final dataset with all metadata
-Organize by difficulty levels and domains
-Prepare test cases and reference implementations
+Language
+
+Complexity
+
+Domain
+
+Function + test mapping
+
+Structure into tiers (e.g., Easy, Medium, Hard).
 
 Phase 8: Evaluation Framework
-
-Test LLMs with different context levels:
+Evaluate LLM performance using varying levels of context:
 
 Level 1: No context (function signature only)
-Level 2: Local context (surrounding functions/imports)
-Level 3: Full context (entire file context)
 
+Level 2: Local context (neighboring functions and imports)
 
-Measure using Pass@k, Recall@k, and functional correctness
+Level 3: Full file context
+
+Report performance using:
+
+Pass@k
+
+Recall@k
+
+Functional correctness via test execution
+
